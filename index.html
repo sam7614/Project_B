@@ -4,7 +4,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width,initial-scale=1">
   <title>학술연구교수 B 연구 진행표</title>
-  <meta name="description" content="2026년 학술연구교수 B유형 연구 일정과 제출물 체크리스트">
+  <meta name="description" content="AI 기반 지능형 어드바이징 시스템 연구를 일정 안에 완성하기 위한 월별 실행 체크리스트">
   <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='16' fill='%231b3a57'/%3E%3Cpath d='M18 19h28v30H18z' fill='%23fff'/%3E%3Cpath d='m23 33 6 6 13-15' fill='none' stroke='%232db9a3' stroke-width='5' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E">
   <style>
     :root{--navy:#16324a;--ink:#17212b;--muted:#607080;--paper:#f5f8fa;--white:#fff;--mint:#25a995;--mint2:#dff5ef;--amber:#eea43b;--red:#d85858;--line:#dbe4e9;--shadow:0 14px 35px rgba(20,50,75,.09)}
@@ -18,7 +18,7 @@
   </style>
 </head>
 <body><main class="wrap">
-  <header class="top"><div><div class="eyebrow">2026 학술연구교수 B유형</div><h1>연구 진행표</h1><p class="sub">2026. 6. 1. — 2027. 8. 31. · Asia/Seoul</p></div><div class="controls"><button class="btn" id="notify">알림 켜기</button><button class="btn" id="ics">캘린더 파일 받기</button><button class="btn primary" id="reset">완료 기록 초기화</button></div></header>
+  <header class="top"><div><div class="eyebrow">2026 학술연구교수 B유형</div><h1>연구 완성 일정표</h1><p class="sub">연구기간 2026. 6. 1. — 2027. 5. 31. · 후속 정산 2027. 8. 31.까지</p></div><div class="controls"><button class="btn" id="notify">알림 켜기</button><button class="btn" id="ics">캘린더 파일 받기</button><button class="btn primary" id="reset">완료 기록 초기화</button></div></header>
   <section class="dashboard"><div class="card status"><div class="status-row"><div><div class="label">전체 진행률</div><div class="big"><span id="pct">0</span>%</div></div><div class="label"><b id="done">0</b> / <span id="total">0</span> 완료</div></div><div class="bar"><i id="fill"></i></div></div><div class="card next"><div class="label">다음 핵심 일정</div><strong id="nextTitle">일정 확인 중</strong><time id="nextDate"></time></div></section>
   <div class="toolbar"><h2>시간대별 체크리스트</h2><div class="filters"><button class="filter active" data-filter="all">전체</button><button class="filter" data-filter="pending">할 일</button><button class="filter" data-filter="done">완료</button></div></div>
   <section class="timeline" id="timeline"></section><div class="card empty" id="empty">해당하는 항목이 없습니다.</div>
@@ -26,26 +26,41 @@
 </main>
 <script>
 const phases=[
- {title:'선정·협약',range:'2026년 6월',items:[
-  {id:'a1',title:'협약 및 연구비 지급 서류 확인',desc:'선정통보서, 과제번호, 계좌·지급서류와 기관별 추가서류를 확인합니다.',date:'2026-06-01'},
-  {id:'a2',title:'KRI·IRIS 정보 최신화',desc:'소속, 연락처, 학위, 국가연구자번호가 일치하는지 점검합니다.',date:'2026-06-05'},
-  {id:'a3',title:'IRB 또는 심의면제 확인',desc:'설문·면담·개인정보를 다루는 연구라면 조사 시작 전에 처리합니다.',date:'2026-06-15'}]},
- {title:'연구 수행',range:'2026년 7월—12월',items:[
-  {id:'b1',title:'연구자료·증빙 보관체계 만들기',desc:'월별 진행기록, 원자료, 분석파일, 회의록과 성과 증빙을 한곳에 정리합니다.',date:'2026-07-01'},
-  {id:'b2',title:'1차 진행 점검',desc:'계획서 대비 연구 범위, 일정, 조사·분석 진행률을 확인합니다.',date:'2026-10-15',key:true},
-  {id:'b3',title:'소속·취업·건강보험 변동 확인',desc:'변동이 있으면 연구수당 중복수혜 여부를 주관기관에 즉시 문의합니다.',date:'2026-11-02'},
-  {id:'b4',title:'상반기 연구기록 정리',desc:'현재까지의 결과, 한계, 다음 단계와 변경 필요사항을 기록합니다.',date:'2026-12-18'}]},
- {title:'성과 정리',range:'2027년 1월—3월',items:[
-  {id:'c1',title:'성과물·KRI 등록 점검',desc:'논문, 발표, 자료 등 성과와 과제번호 사사표기를 확인합니다.',date:'2027-01-15',key:true},
-  {id:'c2',title:'결과보고서 자료 모으기',desc:'연구목표, 방법, 결과, 활용방안, 색인어와 성과 증빙을 모읍니다.',date:'2027-02-26'},
-  {id:'c3',title:'결과보고서 초안 완성',desc:'지정 양식 보고서와 국·영문 요약문 초안을 완성합니다.',date:'2027-03-31',key:true}]},
- {title:'결과 제출',range:'2027년 4월—5월',items:[
-  {id:'d1',title:'학술활동 결과보고서 제출',desc:'보고서 파일, 국·영문 요약문, 결과 개요와 해당 성과물을 온라인 제출합니다.',date:'2027-04-30',key:true},
-  {id:'d2',title:'주관기관 승인·접수번호 확인',desc:'제출 후 기관 승인과 최종 접수 상태를 확인하고 화면을 보관합니다.',date:'2027-05-07'},
-  {id:'d3',title:'연구 종료 및 자료 보관',desc:'최종 연구자료, 동의서, 분석파일과 성과 증빙을 정리합니다.',date:'2027-05-31',key:true}]},
+ {title:'기초연구 완료 확인',range:'2026년 6월—9월',items:[
+  {id:'a1',title:'실행계획·문헌조사 자료 완료 확인',desc:'국내외 모듈형 교육과정, Advising Analytics 및 플랫폼 사례 자료의 누락을 확인합니다.',date:'2026-10-09'},
+  {id:'a2',title:'IRB·설문·FGI 증빙 정리',desc:'승인자료, 최종 설문지, 응답 원자료, 인터뷰 기록과 동의서를 연구 폴더에 확정합니다.',date:'2026-10-12'},
+  {id:'a3',title:'분석용 데이터셋 동결',desc:'결측·이상치 처리와 변수명을 확정하고 원본과 분석본을 분리 보관합니다.',date:'2026-10-14',key:true}]},
+ {title:'요구분석 확정',range:'2026년 10월',items:[
+  {id:'b1',title:'대응표본 t-검정 완료',desc:'필요수준과 현재수준의 차이, 효과크기와 유의확률을 결과표로 정리합니다.',date:'2026-10-20'},
+  {id:'b2',title:'Borich 요구도 산출',desc:'문항별 요구도와 순위를 산출하고 분석식·코드·결과표를 함께 보관합니다.',date:'2026-10-23'},
+  {id:'b3',title:'Locus for Focus 시각화',desc:'필요수준과 차이수준을 기준으로 사분면을 작성하고 HH 영역 항목을 확인합니다.',date:'2026-10-27'},
+  {id:'b4',title:'핵심 기능 우선순위 확정',desc:'Borich 상위 항목과 LF의 HH 항목을 교차 검토해 최우선 설계요소를 문서화합니다.',date:'2026-10-30',key:true}]},
+ {title:'중간점검·설계',range:'2026년 11월—12월',items:[
+  {id:'c1',title:'중간 연구성과 보고서 작성',desc:'문헌·사례·요구분석 결과와 다음 단계 쟁점을 전문가 자문용 문서로 정리합니다.',date:'2026-11-10'},
+  {id:'c2',title:'전문가 자문 및 수정사항 확정',desc:'설계요소의 적절성, 데이터 윤리, 구현 가능성을 검토받고 반영표를 만듭니다.',date:'2026-11-20',key:true},
+  {id:'c3',title:'성찰 기반 어드바이징 알고리즘 설계',desc:'입력 데이터, 판단 규칙, AI 제안, 교수자 확인, 학습자 성찰의 순환 구조를 정의합니다.',date:'2026-12-11'},
+  {id:'c4',title:'개념모형·서비스 플로차트 확정',desc:'교수자와 학습자별 이용 흐름, 예외 상황 및 인간-AI 협업 지점을 도식화합니다.',date:'2026-12-23',key:true}]},
+ {title:'프로토타입 개발',range:'2027년 1월—2월',items:[
+  {id:'d1',title:'화면·정보구조 설계',desc:'Kiro AI를 활용해 핵심 화면, 상담 이력, 추천 근거, 성찰 기록의 정보구조를 설계합니다.',date:'2027-01-12'},
+  {id:'d2',title:'상호작용형 프로토타입 1차 완성',desc:'AI Studio에서 교수자·학습자 핵심 시나리오를 실행할 수 있는 버전을 완성합니다.',date:'2027-01-29',key:true},
+  {id:'d3',title:'전문가 타당성 검토 완료',desc:'델파이 또는 전문가 평정을 실시하고 내용타당도와 수정 의견을 정리합니다.',date:'2027-02-12'},
+  {id:'d4',title:'사용자 시나리오 검증·보완',desc:'대표 과업을 기준으로 화면 흐름, 용어, 추천 설명과 오류 대응을 수정합니다.',date:'2027-02-24'},
+  {id:'d5',title:'검증 반영본 동결',desc:'3월 최종화에 사용할 기능·화면 범위를 확정하고 추가 기능 개발을 중단합니다.',date:'2027-02-26',key:true}]},
+ {title:'최종 산출물 완성',range:'2027년 3월',items:[
+  {id:'e1',title:'최종 프로토타입 확정',desc:'핵심 기능과 전체 시나리오를 점검하고 시연 가능한 안정 버전을 보관합니다.',date:'2027-03-12',key:true},
+  {id:'e2',title:'시스템 활용 가이드 완성',desc:'사용자 역할, 화면별 이용방법, 데이터 처리와 인간 검토 원칙을 문서화합니다.',date:'2027-03-19'},
+  {id:'e3',title:'연구보고서 초안 완성',desc:'연구목표·방법·결과·논의·활용방안과 국영문 요약을 포함한 전체 초안을 완성합니다.',date:'2027-03-26',key:true},
+  {id:'e4',title:'내부 교정·누락 보완',desc:'계획서 대비 산출물, 표·그림, 참고문헌, 윤리 및 증빙자료의 누락을 점검합니다.',date:'2027-03-31'}]},
+ {title:'성과 확산·제출',range:'2027년 4월—5월',items:[
+  {id:'f1',title:'KCI급 학술지 투고본 확정',desc:'요구분석과 시스템 설계 결과를 논문 형식으로 정리하고 공저자·전문가 검토를 마칩니다.',date:'2027-04-09'},
+  {id:'f2',title:'논문 투고 및 성과공유',desc:'KCI급 이상 학술지에 투고하고 대학 관계자 대상 발표 또는 특강 자료를 남깁니다.',date:'2027-04-16',key:true},
+  {id:'f3',title:'학술활동 결과보고서 제출',desc:'공식 마감보다 여유 있게 보고서, 요약문, 프로토타입 및 성과 증빙을 제출합니다.',date:'2027-04-30',key:true},
+  {id:'f4',title:'기관 승인·접수상태 확인',desc:'주관기관 승인과 최종 접수번호를 확인하고 제출 화면과 파일을 보관합니다.',date:'2027-05-07'},
+  {id:'f5',title:'최종 보완 버퍼',desc:'반려·수정 요청, 형식 오류 또는 누락 자료를 처리할 수 있도록 2주 이상의 완충기간을 확보합니다.',date:'2027-05-21'},
+  {id:'f6',title:'연구 종료·후속연구 계획 확정',desc:'최종 자료를 보관하고 실제 시스템 구현 및 효과성 검증으로 이어질 후속 계획을 작성합니다.',date:'2027-05-31',key:true}]},
  {title:'정산·사후관리',range:'2027년 6월—8월',items:[
-  {id:'e1',title:'정산 요청자료 제출',desc:'산학협력단의 사용실적보고 및 증빙 요청에 대응합니다.',date:'2027-07-31'},
-  {id:'e2',title:'연구비 사용실적보고 확인',desc:'통합이지바로 정산, 잔액·이자·반납 여부를 최종 확인합니다.',date:'2027-08-31',key:true}]}
+  {id:'g1',title:'정산 요청자료 제출',desc:'산학협력단의 사용실적보고 및 증빙 요청에 대응합니다.',date:'2027-07-31'},
+  {id:'g2',title:'연구비 사용실적보고 확인',desc:'통합이지바로 정산, 잔액·이자·반납 여부를 최종 확인합니다.',date:'2027-08-31',key:true}]}
 ];
 const flat=phases.flatMap(p=>p.items), storeKey='nrf-b-2026-checks'; let state=JSON.parse(localStorage.getItem(storeKey)||'{}'), filter='all';
 const fmt=d=>new Intl.DateTimeFormat('ko-KR',{year:'numeric',month:'short',day:'numeric'}).format(new Date(d+'T00:00:00+09:00'));
