@@ -122,6 +122,12 @@
       "path": "research/03-results/prototype-review.md"
     },
     {
+      "id": "03-results-prototype-source",
+      "group": "Ⅲ. 연구 결과",
+      "title": "교수자용 프로토타입 원본 코드 확인과 개발 방향",
+      "path": "research/03-results/prototype-source.md"
+    },
+    {
       "id": "discussion",
       "group": "Ⅳ. 논의와 활용",
       "title": "종합 논의·한계·후속 연구",
