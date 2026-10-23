@@ -1,0 +1,215 @@
+{
+  "version": 1,
+  "documents": [
+    {
+      "id": "overview",
+      "group": "Ⅰ. 연구 개요",
+      "title": "연구 필요성·목적·연구문제",
+      "path": "research/01-overview/overview.md"
+    },
+    {
+      "id": "scope",
+      "group": "Ⅰ. 연구 개요",
+      "title": "연구 범위·수행계획과 변경 내역",
+      "path": "research/01-overview/scope.md"
+    },
+    {
+      "id": "01-overview-README",
+      "group": "Ⅰ. 연구 개요",
+      "title": "Ⅰ. 연구 개요 · 장 안내",
+      "path": "research/01-overview/README.md"
+    },
+    {
+      "id": "01-overview-evidence",
+      "group": "Ⅰ. 연구 개요",
+      "title": "Ⅰ. 연구 개요 · 근거 자료 목록",
+      "path": "research/01-overview/evidence.md"
+    },
+    {
+      "id": "01-overview-tasks",
+      "group": "Ⅰ. 연구 개요",
+      "title": "Ⅰ. 연구 개요 · 남은 과제",
+      "path": "research/01-overview/tasks.md"
+    },
+    {
+      "id": "literature",
+      "group": "Ⅱ. 연구 방법과 수행",
+      "title": "문헌 검토·국내외 사례 분석",
+      "path": "research/02-methods/literature.md"
+    },
+    {
+      "id": "ethics",
+      "group": "Ⅱ. 연구 방법과 수행",
+      "title": "연구윤리·참여자·자료 관리",
+      "path": "research/02-methods/ethics.md"
+    },
+    {
+      "id": "survey",
+      "group": "Ⅱ. 연구 방법과 수행",
+      "title": "요구조사·설문 도구·FGI",
+      "path": "research/02-methods/survey.md"
+    },
+    {
+      "id": "analysis",
+      "group": "Ⅱ. 연구 방법과 수행",
+      "title": "요구분석 방법·재현 절차",
+      "path": "research/02-methods/analysis.md"
+    },
+    {
+      "id": "02-methods-README",
+      "group": "Ⅱ. 연구 방법과 수행",
+      "title": "Ⅱ. 연구 방법과 수행 · 장 안내",
+      "path": "research/02-methods/README.md"
+    },
+    {
+      "id": "02-methods-evidence",
+      "group": "Ⅱ. 연구 방법과 수행",
+      "title": "Ⅱ. 연구 방법과 수행 · 근거 자료 목록",
+      "path": "research/02-methods/evidence.md"
+    },
+    {
+      "id": "02-methods-tasks",
+      "group": "Ⅱ. 연구 방법과 수행",
+      "title": "Ⅱ. 연구 방법과 수행 · 남은 과제",
+      "path": "research/02-methods/tasks.md"
+    },
+    {
+      "id": "needs",
+      "group": "Ⅲ. 연구 결과",
+      "title": "요구분석 결과·우선순위",
+      "path": "research/03-results/needs.md"
+    },
+    {
+      "id": "model",
+      "group": "Ⅲ. 연구 결과",
+      "title": "설계 원리·개념 모형·알고리즘",
+      "path": "research/03-results/model.md"
+    },
+    {
+      "id": "prototype",
+      "group": "Ⅲ. 연구 결과",
+      "title": "UI/UX·프로토타입·사용 가이드",
+      "path": "research/03-results/prototype.md"
+    },
+    {
+      "id": "validation",
+      "group": "Ⅲ. 연구 결과",
+      "title": "전문가 검토·형성평가·수정 결과",
+      "path": "research/03-results/validation.md"
+    },
+    {
+      "id": "03-results-README",
+      "group": "Ⅲ. 연구 결과",
+      "title": "Ⅲ. 연구 결과 · 장 안내",
+      "path": "research/03-results/README.md"
+    },
+    {
+      "id": "03-results-evidence",
+      "group": "Ⅲ. 연구 결과",
+      "title": "Ⅲ. 연구 결과 · 근거 자료 목록",
+      "path": "research/03-results/evidence.md"
+    },
+    {
+      "id": "03-results-tasks",
+      "group": "Ⅲ. 연구 결과",
+      "title": "Ⅲ. 연구 결과 · 남은 과제",
+      "path": "research/03-results/tasks.md"
+    },
+    {
+      "id": "discussion",
+      "group": "Ⅳ. 논의와 활용",
+      "title": "종합 논의·한계·후속 연구",
+      "path": "research/04-discussion/discussion.md"
+    },
+    {
+      "id": "impact",
+      "group": "Ⅳ. 논의와 활용",
+      "title": "활용방안·성과 확산·목표 달성",
+      "path": "research/04-discussion/impact.md"
+    },
+    {
+      "id": "04-discussion-README",
+      "group": "Ⅳ. 논의와 활용",
+      "title": "Ⅳ. 논의와 활용 · 장 안내",
+      "path": "research/04-discussion/README.md"
+    },
+    {
+      "id": "04-discussion-evidence",
+      "group": "Ⅳ. 논의와 활용",
+      "title": "Ⅳ. 논의와 활용 · 근거 자료 목록",
+      "path": "research/04-discussion/evidence.md"
+    },
+    {
+      "id": "04-discussion-tasks",
+      "group": "Ⅳ. 논의와 활용",
+      "title": "Ⅳ. 논의와 활용 · 남은 과제",
+      "path": "research/04-discussion/tasks.md"
+    },
+    {
+      "id": "abstractKo",
+      "group": "Ⅴ. 제출용 요약",
+      "title": "국문 학술활동 요약문",
+      "path": "research/05-summaries/abstractKo.md"
+    },
+    {
+      "id": "abstractEn",
+      "group": "Ⅴ. 제출용 요약",
+      "title": "영문 학술활동 요약문",
+      "path": "research/05-summaries/abstractEn.md"
+    },
+    {
+      "id": "submission",
+      "group": "Ⅴ. 제출용 요약",
+      "title": "결과 개요·활용방안·색인어",
+      "path": "research/05-summaries/submission.md"
+    },
+    {
+      "id": "05-summaries-README",
+      "group": "Ⅴ. 제출용 요약",
+      "title": "Ⅴ. 제출용 요약 · 장 안내",
+      "path": "research/05-summaries/README.md"
+    },
+    {
+      "id": "05-summaries-evidence",
+      "group": "Ⅴ. 제출용 요약",
+      "title": "Ⅴ. 제출용 요약 · 근거 자료 목록",
+      "path": "research/05-summaries/evidence.md"
+    },
+    {
+      "id": "05-summaries-tasks",
+      "group": "Ⅴ. 제출용 요약",
+      "title": "Ⅴ. 제출용 요약 · 남은 과제",
+      "path": "research/05-summaries/tasks.md"
+    },
+    {
+      "id": "references",
+      "group": "Ⅵ. 참고문헌·부록",
+      "title": "참고문헌",
+      "path": "research/06-references/references.md"
+    },
+    {
+      "id": "appendix",
+      "group": "Ⅵ. 참고문헌·부록",
+      "title": "부록·연구 증빙·AI 활용 내역",
+      "path": "research/06-references/appendix.md"
+    },
+    {
+      "id": "06-references-README",
+      "group": "Ⅵ. 참고문헌·부록",
+      "title": "Ⅵ. 참고문헌·부록 · 장 안내",
+      "path": "research/06-references/README.md"
+    },
+    {
+      "id": "06-references-evidence",
+      "group": "Ⅵ. 참고문헌·부록",
+      "title": "Ⅵ. 참고문헌·부록 · 근거 자료 목록",
+      "path": "research/06-references/evidence.md"
+    },
+    {
+      "id": "06-references-tasks",
+      "group": "Ⅵ. 참고문헌·부록",
+      "title": "Ⅵ. 참고문헌·부록 · 남은 과제",
+      "path": "research/06-references/tasks.md"
+    }
+  ]
+}
