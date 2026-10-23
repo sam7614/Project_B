@@ -95,3 +95,8 @@
 - [프로토타입 본문](prototype.md)
 - [근거 자료 목록](evidence.md)
 - [남은 과제](tasks.md)
+
+
+## 후속 해결: 일반 소스 구조와 운영 Git 연결
+
+같은 날 사용자 요청으로 ZIP의 교수자용 코드를 src로 복원하고 기존 학생용 소스를 legacy로 보존했다. 기존 운영 주소의 프로젝트가 다른 저장소에 연결되어 있음을 Vercel CLI에서 확인한 뒤, TU-Professor-Assistant/main으로 연결을 수정했다. 배포 커밋 fc31789011e90756fb38292959f225f757f5dd0d의 READY 상태와 주요 공개 화면을 확인했다. 위 확인 당시의 구조·연결 미확인 항목은 [소스 구조 정리와 배포 검증](prototype-build-setup.md)의 범위에서 해결되었다.

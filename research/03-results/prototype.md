@@ -29,7 +29,9 @@
 
 후속 원본 확인에서 TU-Professor-Assistant 저장소의 커밋 74d467fb393906dbdc6ee76d898fada810dbb60a에 포함된 tu-professor-assistant.zip 내부 교수자용 소스가 배포 화면과 대응함을 확인하였다. 저장소 최상위의 학생용 코드와는 구분되며, 배포 원본 커밋과 Vercel 연결 설정은 추가 확인 대상이다. 연구자는 이 교수자용 페이지를 지속적으로 개선할 의사를 밝혔으며, 코드 구조·배포 경로를 정리한 후 기능 개선과 연구 검증을 진행하는 방향을 기록하였다.
 
-근거: E-PR-001, E-PR-002 및 같은 폴더의 prototype-review.md, prototype-source.md. 본문은 사전점검에 관한 작업 초안이며 연구자의 사실 확인과 검토가 필요하다.
+후속 개발 기반 정비에서는 교수자용 코드를 src 구조로 복원하고 기존 학생용 코드를 legacy로 보존하였다. lockfile 기반 재설치, 타입 검사와 프로덕션 빌드를 통과했고, 로컬 및 실제 운영 주소에서 주요 화면과 모바일 동선을 확인하였다. 기존 Vercel 프로젝트의 Git 연결을 TU-Professor-Assistant/main으로 수정하여 커밋 fc31789011e90756fb38292959f225f757f5dd0d가 기존 운영 주소에 자동 배포된 사실을 확인하였다. 이는 개발·배포 기반 정비에 관한 기술 결과이며 실제 상담 저장·학사 연계나 교육적 효과의 검증을 뜻하지 않는다.
+
+근거: E-PR-001~003 및 같은 폴더의 prototype-review.md, prototype-source.md, prototype-build-setup.md. 본문은 사전점검에 관한 작업 초안이며 연구자의 사실 확인과 검토가 필요하다.
 <!-- report-body:end -->
 
 ## 작업 메모

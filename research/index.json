@@ -116,6 +116,12 @@
       "path": "research/03-results/tasks.md"
     },
     {
+      "id": "03-results-prototype-build-setup",
+      "group": "Ⅲ. 연구 결과",
+      "title": "교수자용 소스 구조 정리와 배포 검증",
+      "path": "research/03-results/prototype-build-setup.md"
+    },
+    {
       "id": "03-results-prototype-review",
       "group": "Ⅲ. 연구 결과",
       "title": "기존 교수자용 대시보드 사전 검토",
