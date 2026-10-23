@@ -116,6 +116,12 @@
       "path": "research/03-results/tasks.md"
     },
     {
+      "id": "03-results-prototype-review",
+      "group": "Ⅲ. 연구 결과",
+      "title": "기존 교수자용 대시보드 사전 검토",
+      "path": "research/03-results/prototype-review.md"
+    },
+    {
       "id": "discussion",
       "group": "Ⅳ. 논의와 활용",
       "title": "종합 논의·한계·후속 연구",

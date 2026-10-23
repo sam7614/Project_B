@@ -23,6 +23,16 @@ for (const [i, folder] of folders.entries()) {
     if (!fs.existsSync(path.join(root, file))) throw new Error(`Missing file: ${file}`);
     documents.push({id:`${folder}-${name}`,group:groups[i],title:`${groups[i]} · ${title}`,path:file});
   }
+  // Include dated reviews and other chapter notes alongside the core manuscripts.
+  for (const name of fs.readdirSync(path.join(root, 'research', folder)).sort()) {
+    if (!/^[a-zA-Z0-9-]+\.md$/.test(name)) continue;
+    const file = `research/${folder}/${name}`;
+    if (documents.some(d => d.path === file)) continue;
+    const content = fs.readFileSync(path.join(root, file), 'utf8');
+    const title = content.match(/^#\s+(.+)$/m)?.[1];
+    if (!title) throw new Error(`Missing document title: ${file}`);
+    documents.push({id:`${folder}-${name.slice(0,-3)}`,group:groups[i],title,path:file});
+  }
 }
 documents.sort((a,b)=>groups.indexOf(a.group)-groups.indexOf(b.group));
 fs.writeFileSync(path.join(root, 'research', 'index.json'), JSON.stringify({version:1,documents},null,2)+'\n');
