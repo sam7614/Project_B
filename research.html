@@ -1,0 +1,21 @@
+<!doctype html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>연구 작업실 · 지능형 어드바이징 연구</title>
+  <meta name="description" content="자료 수집부터 연구 기록, 최종보고서 초안까지 연결하는 연구 작업실">
+  <link rel="stylesheet" href="research.css">
+  <script src="research-schema.js" defer></script><script src="research.js" defer></script>
+</head>
+<body>
+<a class="skip" href="#content">본문으로 이동</a>
+<header class="app-header"><a class="brand" href="research.html"><span class="brand-icon">B</span><span>Advising Lab<small>2026 인문사회학술연구교수 B유형</small></span></a><nav aria-label="프로젝트"><a href="index.html">일정표 ↗</a><span class="local-badge">● 이 브라우저에 저장</span></nav></header>
+<div class="app-layout">
+  <aside class="sidebar"><div class="sidebar-title">RESEARCH WORKSPACE</div><nav aria-label="연구 작업 메뉴" id="mainNav"><button data-view="home" class="active">01 <span>프로젝트 개요</span></button><button data-view="sources">02 <span>문헌·웹 자료함</span></button><button data-view="records">03 <span>연구 기록</span></button><button data-view="report">04 <span>최종보고서 작성</span></button><button data-view="guide">05 <span>제출·보관 안내</span></button></nav><div class="sidebar-note"><b>기록을 연구 결과로.</b><p>출처와 관찰을 모으고<br>판단의 근거를 남기세요.</p><span id="saveState" role="status" aria-live="polite">저장소 여는 중…</span></div><button class="button full" id="backup">전체 백업 받기 ↓</button><button class="text-button full" id="restore">백업 복원</button><input id="restoreFile" type="file" accept=".json,application/json" hidden><p class="tiny">자동 동기화되지 않습니다.<br>브라우저 데이터를 지우기 전에<br>첨부파일 포함 백업을 받으세요.</p></aside>
+  <main id="content" tabindex="-1"><div id="fatal" class="banner error" hidden></div><div id="viewRoot"><p>연구 작업실을 준비하고 있습니다.</p></div></main>
+</div>
+<div id="toast" class="toast" role="status" aria-live="polite" hidden></div>
+<dialog id="editorDialog"><form id="entryForm"><div class="dialog-heading"><div><div class="eyebrow" id="dialogEyebrow">NEW ENTRY</div><h2 id="dialogTitle">기록 추가</h2></div><button type="button" class="icon-button" id="closeDialog" aria-label="닫기">×</button></div><div id="formFields"></div><div id="formError" class="banner error" role="alert" hidden></div><div class="dialog-actions"><button class="button" type="button" id="cancelDialog">취소</button><button class="button primary" type="submit" id="submitEntry">저장</button></div></form></dialog>
+<dialog id="restoreDialog"><div class="dialog-heading"><h2>백업을 복원할까요?</h2></div><p id="restoreInfo"></p><p>현재 연구 기록과 보고서를 백업 내용으로 교체합니다. 먼저 현재 자료의 백업을 받는 것을 권합니다.</p><div class="dialog-actions"><button class="button" id="cancelRestore">취소</button><button class="button primary" id="confirmRestore">교체하여 복원</button></div></dialog>
+<noscript>연구 작업실을 사용하려면 JavaScript를 허용해 주세요.</noscript>
+</body></html>
