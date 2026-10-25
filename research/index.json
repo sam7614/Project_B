@@ -44,6 +44,12 @@
       "path": "research/01-overview/recent-literature-balance.md"
     },
     {
+      "id": "01-overview-report-versions",
+      "group": "Ⅰ. 연구 개요",
+      "title": "보고서 버전과 수정 안내",
+      "path": "research/01-overview/report-versions.md"
+    },
+    {
       "id": "literature",
       "group": "Ⅱ. 연구 방법과 수행",
       "title": "문헌 검토·국내외 사례 분석",

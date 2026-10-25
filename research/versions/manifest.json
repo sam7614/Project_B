@@ -1,0 +1,24 @@
+{
+  "currentVersion": "v0.4",
+  "baselineVersion": "v0.3",
+  "baselineGitCommit": "1f599ce",
+  "scope": "Named completed work versions; not per-keystroke tracking or automatic synchronization of all manual edits.",
+  "snapshots": [
+    {
+      "version": "v0.3",
+      "path": "research/versions/v0.3-captured-before-version-log.md",
+      "sha256": "86e697ef091d6e10dac8ea7beb56eb7b5a85b1b9ecb3799be3af8abb9a08f43d",
+      "capturedAt": "2026-10-25 17:43:36 +09:00",
+      "documentId": "1ZjuZ8Q0NYilpkVLrZ7O6QH_tPksNyfGVHbljOeBgviI",
+      "note": "Captured immediately before version-register work; not an exact restoration of the11:43 Google Docs revision."
+    },
+    {
+      "version": "v0.4",
+      "path": "research/versions/v0.4-report.md",
+      "sha256": "a9fb19f6d02f3dd7c37ef65a79f2d7d258ff927e3cd2dbdf2c66495eb7767161",
+      "capturedAt": "2026-10-25 08:46:19 UTC",
+      "documentId": "1ZjuZ8Q0NYilpkVLrZ7O6QH_tPksNyfGVHbljOeBgviI",
+      "note": "Current full text snapshot after adding version banner and change log."
+    }
+  ]
+}
