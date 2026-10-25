@@ -6,9 +6,9 @@ const crypto = require('node:crypto');
 const root = path.resolve(__dirname, '..');
 const args = process.argv.slice(2);
 const option = (name, fallback) => { const i = args.indexOf(name); return i < 0 ? fallback : args[i + 1]; };
-const count = Number(option('--count', 20000));
+const count = Number(option('--count', 1000));
 const seed = Number(option('--seed', 20261025));
-if (!Number.isSafeInteger(count) || count < 256 || count > 1000000) throw Error('count must be 256..1000000');
+if (!Number.isSafeInteger(count) || count < 256 || count > 1000) throw Error('count must be 256..1000 (current school scale)');
 if (!Number.isInteger(seed) || seed < 0 || seed > 4294967295) throw Error('seed must be a uint32');
 const out = path.resolve(root, option('--out', '.synthetic-data'));
 let state = seed >>> 0;
@@ -76,6 +76,7 @@ const files = {
 const sha256 = data => crypto.createHash('sha256').update(data).digest('hex');
 const manifest = {
   datasetVersion:'pb-synthetic-v1', synthetic:true, empiricalParticipants:0, seed, count, demoCount:demo.length,
+  schoolScale:{totalStudents:1000,note:'Current user-requested total across all grades; not an estimate of annual admissions or actual enrollment.'},
   generator:'scripts/generate-synthetic-students.cjs', generatorSha256:sha256(fs.readFileSync(__filename)), referenceDate:'2026-10-25',
   distribution:'Constructed scenario coverage; not estimated from real students. Uniform designed strata; other fields use a seeded LCG.',
   allowedUses:['software fixtures','scenario walkthrough','analysis pipeline dry-run','local scalability measurement'],
