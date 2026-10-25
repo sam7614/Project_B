@@ -38,6 +38,12 @@
       "path": "research/01-overview/academic-writing-sources.md"
     },
     {
+      "id": "01-overview-recent-literature-balance",
+      "group": "Ⅰ. 연구 개요",
+      "title": "최근 국내·해외 논문의 배분과 인용 근거",
+      "path": "research/01-overview/recent-literature-balance.md"
+    },
+    {
       "id": "literature",
       "group": "Ⅱ. 연구 방법과 수행",
       "title": "문헌 검토·국내외 사례 분석",
