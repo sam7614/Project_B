@@ -122,6 +122,12 @@
       "path": "research/03-results/tasks.md"
     },
     {
+      "id": "03-results-google-sheet-integration",
+      "group": "Ⅲ. 연구 결과",
+      "title": "구글시트 기반 학생 데이터 연결 프로토타입",
+      "path": "research/03-results/google-sheet-integration.md"
+    },
+    {
       "id": "03-results-prototype-build-setup",
       "group": "Ⅲ. 연구 결과",
       "title": "교수자용 소스 구조 정리와 배포 검증",
