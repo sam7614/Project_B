@@ -92,6 +92,12 @@
       "path": "research/02-methods/tasks.md"
     },
     {
+      "id": "02-methods-needs-analysis-readiness",
+      "group": "Ⅱ. 연구 방법과 수행",
+      "title": "요구분석 계산 절차의 사전 점검과 일정 상태",
+      "path": "research/02-methods/needs-analysis-readiness.md"
+    },
+    {
       "id": "02-methods-synthetic-data",
       "group": "Ⅱ. 연구 방법과 수행",
       "title": "합성 학생 데이터 생성·활용 프로토콜",

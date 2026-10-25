@@ -26,3 +26,7 @@
 - 반영 범위: 생성 규모의 참고와 검증 영역 구분. 해당 논문의 방법·효과·개인정보보호 보장을 본 데이터에 귀속시키지 않는다.
 - 자체 산출물: [합성 데이터 프로토콜](synthetic-data.md), scripts/generate-synthetic-students.cjs, scripts/verify-synthetic-students.cjs.
 - 상태: 공개 원문 확인 및 자체 생성·제약·재현 검사 수행. 실제 데이터 충실도·실증 연구 결과 미검증.
+
+## E-NA-001. 요구분석 개발 fixture와 계산 검증
+
+2026-10-25 19시 수행. 가상ID4×항목3의12행, 실제 응답자0명. 입력 계약·Borich/LF·t통계량 산술 및 오류/경계의 단위 검사7개 통과. p값·CI·가정 검토·실증 분석은 미실행. [실행·출처·한계](needs-analysis-readiness.md). v0.4→v0.5 보고서6절에 반영하고 원고 스냅샷 및 일일 구글독스에 기록했다.

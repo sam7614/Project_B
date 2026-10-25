@@ -1,0 +1,13 @@
+respondent_id,role,item_id,importance,current,synthetic
+SYN-Q-001,developer-test,A,5,1,true
+SYN-Q-002,developer-test,A,5,2,true
+SYN-Q-003,developer-test,A,4,2,true
+SYN-Q-004,developer-test,A,4,3,true
+SYN-Q-001,developer-test,B,3,2,true
+SYN-Q-002,developer-test,B,3,2,true
+SYN-Q-003,developer-test,B,3,2,true
+SYN-Q-004,developer-test,B,3,2,true
+SYN-Q-001,developer-test,C,2,3,true
+SYN-Q-002,developer-test,C,2,3,true
+SYN-Q-003,developer-test,C,2,3,true
+SYN-Q-004,developer-test,C,2,3,true

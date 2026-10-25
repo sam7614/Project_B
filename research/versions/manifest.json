@@ -1,7 +1,7 @@
 {
-  "currentVersion": "v0.4",
-  "baselineVersion": "v0.3",
-  "baselineGitCommit": "1f599ce",
+  "currentVersion": "v0.5",
+  "baselineVersion": "v0.4",
+  "baselineGitCommit": "2c347f0",
   "scope": "Named completed work versions; not per-keystroke tracking or automatic synchronization of all manual edits.",
   "snapshots": [
     {
@@ -19,6 +19,14 @@
       "capturedAt": "2026-10-25 08:46:19 UTC",
       "documentId": "1ZjuZ8Q0NYilpkVLrZ7O6QH_tPksNyfGVHbljOeBgviI",
       "note": "Current full text snapshot after adding version banner and change log."
+    },
+    {
+      "version": "v0.5",
+      "path": "research/versions/v0.5-report.md",
+      "sha256": "a20cc9651b57d0201a7428df6f1932a2583def41c09f436d34be3e903839ca2a",
+      "capturedAt": "2026-10-25 19:09 +09:00",
+      "documentId": "1ZjuZ8Q0NYilpkVLrZ7O6QH_tPksNyfGVHbljOeBgviI",
+      "note": "Needs-analysis input/arithmetic preparation only; real respondents0; inference not run."
     }
   ]
 }
