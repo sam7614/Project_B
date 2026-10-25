@@ -18,4 +18,11 @@
 - 핵심 내용:
 - 연구에 반영한 내용:
 
-현재 등록된 검증 근거 없음.
+## E-SYN-001. 완전 합성 학생 데이터 생성 프로토콜
+
+- 확인일: 2026-10-25
+- 문헌: Agal (2026), Scientific Reports 16, 14772, https://doi.org/10.1038/s41598-026-44990-8 (Abstract·Major contributions의20,000건·85변수 규모 확인).
+- 평가 방법 참고: Tiukhova et al., EDM2026, https://educationaldatamining.org/edm2026/proceedings/2026.EDM.full-papers.114/index.html (Abstract·RQ1–RQ3).
+- 반영 범위: 생성 규모의 참고와 검증 영역 구분. 해당 논문의 방법·효과·개인정보보호 보장을 본 데이터에 귀속시키지 않는다.
+- 자체 산출물: [합성 데이터 프로토콜](synthetic-data.md), scripts/generate-synthetic-students.cjs, scripts/verify-synthetic-students.cjs.
+- 상태: 공개 원문 확인 및 자체 생성·제약·재현 검사 수행. 실제 데이터 충실도·실증 연구 결과 미검증.
