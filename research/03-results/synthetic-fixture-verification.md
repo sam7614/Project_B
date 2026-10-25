@@ -32,4 +32,7 @@
 - 로컬 전체 데이터: .synthetic-data/students.json 및 students.csv
 - 제품 fixture: TU-Professor-Assistant/src/data/synthetic-students.json
 - 제품 변환·출처: docs/SYNTHETIC_DATA.md, docs/synthetic-data-manifest.json
-- 운영 배포 확인은 후속 배포 기록으로 보완한다.
+- 제품 커밋: 1b37995d2666293fd492ef7ec1be877b8578baf0.
+- Vercel 운영 배포: dpl_FxfYnGfBwfeKsax7bobd6mZZEZSD, production READY.
+- 운영 주소 https://micro-degree-student.vercel.app/ 에서도 위 학생 유지·집계 입력·관리256행·모듈필터64행·관계256노드·주요 화면·모바일 검사를 통과했다.
+- 연구 웹앱의 공개 index에서 프로토콜과 이 검증 기록이 노출됨을 확인했다.
