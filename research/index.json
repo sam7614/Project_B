@@ -32,6 +32,12 @@
       "path": "research/01-overview/tasks.md"
     },
     {
+      "id": "01-overview-academic-writing-sources",
+      "group": "Ⅰ. 연구 개요",
+      "title": "연구 필요성·목적의 집필 구조와 문헌 검토 근거",
+      "path": "research/01-overview/academic-writing-sources.md"
+    },
+    {
       "id": "literature",
       "group": "Ⅱ. 연구 방법과 수행",
       "title": "문헌 검토·국내외 사례 분석",
@@ -224,16 +230,16 @@
       "path": "research/05-summaries/tasks.md"
     },
     {
-      "id": "references",
-      "group": "Ⅵ. 참고문헌·부록",
-      "title": "참고문헌",
-      "path": "research/06-references/references.md"
-    },
-    {
       "id": "appendix",
       "group": "Ⅵ. 참고문헌·부록",
       "title": "부록·연구 증빙·AI 활용 내역",
       "path": "research/06-references/appendix.md"
+    },
+    {
+      "id": "references",
+      "group": "Ⅵ. 참고문헌·부록",
+      "title": "참고문헌",
+      "path": "research/06-references/references.md"
     },
     {
       "id": "06-references-README",
