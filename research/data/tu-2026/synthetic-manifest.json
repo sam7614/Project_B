@@ -1,0 +1,50 @@
+{
+  "version": "tu-matched-synthetic-v1",
+  "seed": 20261025,
+  "asOf": "2026-10-25",
+  "studentCount": 1000,
+  "empiricalParticipants": 0,
+  "studentCourseRows": 3789,
+  "moduleCoverage": 234,
+  "byCollege": {
+    "보건복지교육대학": 250,
+    "뷰티예술대학": 250,
+    "건축·디자인대학": 250,
+    "ICT융합대학": 250
+  },
+  "byDepartment": {
+    "간호학과": 32,
+    "뷰티케어학과": 63,
+    "건축학과": 63,
+    "게임공학과": 32,
+    "작업치료학과": 32,
+    "헤어디자인학과": 63,
+    "건축공학과": 63,
+    "게임그래픽학과": 32,
+    "응급구조학과": 31,
+    "메이크업디자인학과": 62,
+    "실내건축학과": 62,
+    "컴퓨터공학과": 31,
+    "언어치료청각재활학과": 31,
+    "패션디자인학과": 62,
+    "시각디자인학과": 62,
+    "인공지능응용학과": 31,
+    "스포츠재활학과": 31,
+    "냉동공조공학과": 31,
+    "상담·임상심리학과": 31,
+    "미래자동차학과": 31,
+    "사회복지학과": 31,
+    "전기제어학부": 31,
+    "유아교육과": 31,
+    "항만물류시스템학과": 31
+  },
+  "sourceUrl": "https://www.tu.ac.kr/web/module-guidebook.html",
+  "sourceHtmlSha256": "05fc57f5fbb8a53dcc7a795facf76420fc8233ecb88cb38f439c30c93daf24fa",
+  "limits": [
+    "One primary module per synthetic student; not a full university transcript or graduation audit.",
+    "Total credits/GPA refer only to represented module-course records.",
+    "Choice-group rows are a single requirement slot; no official course code or graduation selection policy is invented.",
+    "Offering year/semester are source facts; enrollments/status/grade points are simulated; 4.5 grade scale is a simulation assumption."
+  ],
+  "snapshotRevision": "204121c60df4a9898ffe692bcd4dac3b1c621d89f1779ec1b8f3d37221f42b0b"
+}

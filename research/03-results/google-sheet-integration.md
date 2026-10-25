@@ -7,11 +7,11 @@
 ## 데이터 원본과 계약
 
 - 구글시트: https://docs.google.com/spreadsheets/d/1o363_FWYDARmI6vg8ZTRMf4SNF2WMKM-FhRJJV-5nfw/edit
-- Students 탭 ID:1874736550. 현재 합성1,000건·28개 필드. 사용자의 학교 규모 요청에 따라 초기20,000건에서 기존 첫1,000개 ID와 값을 보존하고 이후 행을 제거했다. 축소 전 파일은 로컬에 백업했다.
+- Students 탭 ID:1874736550. 초기 축소 시 합성1,000건·28개 필드였으며, 현재 TU 교육과정 매칭 후33개 필드다. 사용자의 학교 규모 요청에 따라 초기20,000건에서 기존 첫1,000개 ID와 값을 보존하고 이후 행을 제거했다. 축소 전 파일은 로컬에 백업했다.
 - 현재1,000명 전원을 active로 설정했다. 학생 표시 범위는 최소1명·최대1,000명이다. 과거256명 화면은 초기 버전 기록이다.
 - Guide 탭에 편집·범위·동기화·합성 한계를 정리했다. 상태 열에는 Good/Warning/Request/Waiting 네이티브 드롭다운을 설정했다. 헤더·식별열 고정, 숫자 형식·열 너비를 확인하고 네이티브 변환 후 다시 내보낸 워크북의 두 탭을 렌더링해 확인했다.
 - 입력: 식별자·학과·학년·대표/선택 모듈·모듈/전체 학점·GPA·점수·상담 상태·진로·성찰·변경 사유·선수요건·계획학점·합성 구분 등. 이수율은 학점으로 계산한다.
-- 같은28개 헤더를 사용하는 Excel/CSV를 시트에 가져올 수 있다. 현재 앱의 임의 Excel 파일 직접 업로드 기능은 구현하지 않았다.
+- 초기28열 CSV는 이전 계약 참고다. 현재는 Students33열과 StudentCourses13열을 함께 사용한다. 현재 앱의 임의 Excel 파일 직접 업로드 기능은 구현하지 않았다.
 
 ## 동기화 경로
 
@@ -44,10 +44,14 @@
 
 - 연결 구현 커밋:2dd72c3, 운영 경로 수정:a16768e. 당시 운영 배포:dpl_2Dr1xeuaGquvsbcmjeeYMbT3WQUh(READY).
 - 1,000명 데이터·fallback·규모 문서 커밋:0941234 (data/school-scale-1000 → main).
-- 현재 운영 배포:dpl_LKG3FLCbcdknMywgGeD4FJ4ZLZdb, production READY, 커밋09412345287900099a91940c6a638c08ff32e92b.
+- 1,000명 축소 당시 운영 배포:dpl_LKG3FLCbcdknMywgGeD4FJ4ZLZdb, production READY, 커밋09412345287900099a91940c6a638c08ff32e92b.
 - 제품 구현·사용 안내: https://github.com/sam7614/TU-Professor-Assistant/blob/main/docs/GOOGLE_SHEET_SYNC.md
 - CSV 예제: https://github.com/sam7614/TU-Professor-Assistant/blob/main/docs/student-data-template.csv
 - Google 공식 접근 문서: https://developers.google.com/chart/interactive/docs/spreadsheets (링크 열람과 비공개 OAuth 접근의 구분).
 - Vercel Node Functions: https://vercel.com/docs/functions/runtimes/node-js (root api, Web fetch handler).
 - 선행 합성 자료 프로토콜: [E-SYN-001](../02-methods/synthetic-data.md).
 - 본 기록은 개발·통합 점검이며 실제 사용자 평가·요구분석·전문가 타당성 결과가 아니다.
+
+## 현재 교육과정·교과목 원자료 기준
+
+2026-10-25 공식 TU4단과대학·24학과·234모듈·907로드맵 항목을 합성1,000명·이수 항목3,789건에 연결했다. Students33열, StudentCourses13열을 읽고 교과목 원자료에서 학점·평점을 재계산한다. 실제 원자료 변경·오류 거부·복원과 학과/모듈 필터를 확인했다. 편집 규칙·출처·범위는 [동명대학교 교육과정 매칭](tu-curriculum-matching.md)을 현재 기준으로 적용한다. 이전 직접 요약학점/GPA 편집은 과거 검증 기록이다.

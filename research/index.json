@@ -152,6 +152,12 @@
       "path": "research/03-results/synthetic-fixture-verification.md"
     },
     {
+      "id": "03-results-tu-curriculum-matching",
+      "group": "Ⅲ. 연구 결과",
+      "title": "동명대학교 모듈 교육과정과 합성 학생 원자료 매칭",
+      "path": "research/03-results/tu-curriculum-matching.md"
+    },
+    {
       "id": "discussion",
       "group": "Ⅳ. 논의와 활용",
       "title": "종합 논의·한계·후속 연구",
