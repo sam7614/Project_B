@@ -98,6 +98,12 @@
       "path": "research/02-methods/needs-analysis-readiness.md"
     },
     {
+      "id": "02-methods-needs-codebook-draft",
+      "group": "Ⅱ. 연구 방법과 수행",
+      "title": "교수자·학생 요구조사 코드북과 응답 안내 초안",
+      "path": "research/02-methods/needs-codebook-draft.md"
+    },
+    {
       "id": "02-methods-synthetic-data",
       "group": "Ⅱ. 연구 방법과 수행",
       "title": "합성 학생 데이터 생성·활용 프로토콜",
@@ -150,6 +156,12 @@
       "group": "Ⅲ. 연구 결과",
       "title": "구글시트 기반 학생 데이터 연결 프로토타입",
       "path": "research/03-results/google-sheet-integration.md"
+    },
+    {
+      "id": "03-results-lf-fixture-verification",
+      "group": "Ⅲ. 연구 결과",
+      "title": "LF 시각화 개발 검증과 요구조사 준비 상태",
+      "path": "research/03-results/lf-fixture-verification.md"
     },
     {
       "id": "03-results-prototype-build-setup",
@@ -252,6 +264,12 @@
       "group": "Ⅴ. 제출용 요약",
       "title": "2026-10-25 밤9시 연구·개발 수행보고",
       "path": "research/05-summaries/daily-2026-10-25.md"
+    },
+    {
+      "id": "05-summaries-daily-2026-10-27",
+      "group": "Ⅴ. 제출용 요약",
+      "title": "2026-10-27 오전 연구 수행 기록",
+      "path": "research/05-summaries/daily-2026-10-27.md"
     },
     {
       "id": "appendix",

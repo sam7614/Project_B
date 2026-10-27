@@ -19,6 +19,8 @@ window.ResearchRepository = (() => {
       return target?`<button class="text-button" data-document="${escape(target.id)}">${label}</button>`:match;
     });
     return markdown.split(/\r?\n/).filter(line=>!/^<!-- report-body:(start|end) -->$/.test(line)).map(line=>{
+      const figure=line.match(/^!\[([^\]]*)\]\((research\/figures\/[a-zA-Z0-9._-]+\.(?:png|svg))\)$/);
+      if(figure)return `<figure><a href="${escape(figure[2])}" target="_blank" rel="noopener noreferrer"><img src="${escape(figure[2])}" alt="${escape(figure[1])}" style="max-width:100%;height:auto" loading="lazy"></a><figcaption>${escape(figure[1])}</figcaption></figure>`;
       const heading=line.match(/^(#{1,3}) (.*)$/);
       if(heading){const level=Math.min(heading[1].length+1,4);return `<h${level}>${escape(heading[2])}</h${level}>`;}
       if(line.startsWith('- [ ] '))return `<p>☐ ${escape(line.slice(6))}</p>`;
