@@ -34,3 +34,7 @@
 ## E-NA-002. 요구조사 코드북 초안과 LF 개발 그림
 
 2026-10-27 오전 실제 수행. [코드북 초안](needs-codebook-draft.md)의12문항은 미확정·미타당화 상태이며 실제 응답자0명이다. LF 더미3항목 그림은 scripts/render-lf-fixture.py로 만들고 새 그림 검사3건 및 기존 산술7건을 통과했다. 상세는 research/03-results/lf-fixture-verification.md. 최종보고서v0.6의5·6절과 부록에 반영하고 PDF14쪽의 그림7쪽·참고문헌마지막 배치를 확인했다. 실제 우선순위·실증 분석·조사 실시 근거가 아니다.
+
+## E-EVAL-001. 문항 검토·교수자 과업 패킷 준비
+
+2026-10-27 저녁. [문항 검토 패킷](instrument-review-packet.md)의12행 빈 양식·4검토 관점과 research/03-results/faculty-task-protocol.md의8과업·R01–R12 대응을 작성했다. 실제 평정·전문가 검토·사용자 평가·기관 승인·CVI는 미실시/미확인이다. 보고서v0.7의10절·부록에 준비 사실만 반영했다.

@@ -92,6 +92,12 @@
       "path": "research/02-methods/tasks.md"
     },
     {
+      "id": "02-methods-instrument-review-packet",
+      "group": "Ⅱ. 연구 방법과 수행",
+      "title": "요구조사 문항 검토 패킷 — 미실시 초안",
+      "path": "research/02-methods/instrument-review-packet.md"
+    },
+    {
       "id": "02-methods-needs-analysis-readiness",
       "group": "Ⅱ. 연구 방법과 수행",
       "title": "요구분석 계산 절차의 사전 점검과 일정 상태",
@@ -150,6 +156,12 @@
       "group": "Ⅲ. 연구 결과",
       "title": "Ⅲ. 연구 결과 · 남은 과제",
       "path": "research/03-results/tasks.md"
+    },
+    {
+      "id": "03-results-faculty-task-protocol",
+      "group": "Ⅲ. 연구 결과",
+      "title": "교수자 과업 평가 프로토콜 초안 — 평가 미실시",
+      "path": "research/03-results/faculty-task-protocol.md"
     },
     {
       "id": "03-results-google-sheet-integration",

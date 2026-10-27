@@ -88,3 +88,7 @@
 ## E-NA-002. LF 가상 출력 검증
 
 2026-10-27 오전. [LF 개발 그림과 검사 기록](lf-fixture-verification.md), scripts/render-lf-fixture.py 및 scripts/test-lf-render.py. 새 검사3개·기존 입력/산술7개 통과. 실제 응답자0명이며 가상3항목을 실제 기능 우선순위와 연결하지 않았다. 오늘 LF 실증 일정은 미완료이며10월20/23 분석도 증빙 미확인이다.
+
+## E-EVAL-001. 교수자 과업 평가 준비
+
+2026-10-27 저녁. [8개 과업 프로토콜](faculty-task-protocol.md)과 research/02-methods/instrument-review-packet.md. 자료·버전 고정, 완료 조건·예정 증거·미구현 보류, 미실행 값과 실제 측정값의 구분을 정리했다. 실제 참여자0명이며 새 과업 실행/사용자 평가 결과는 없다. 기존 기술 검증을 새 성과로 재계상하지 않았다.

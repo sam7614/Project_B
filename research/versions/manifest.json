@@ -1,7 +1,7 @@
 {
-  "currentVersion": "v0.6",
-  "baselineVersion": "v0.5",
-  "baselineGitCommit": "dae9c25",
+  "currentVersion": "v0.7",
+  "baselineVersion": "v0.6",
+  "baselineGitCommit": "bf50090",
   "scope": "Named completed work versions; not per-keystroke tracking or automatic synchronization of all manual edits.",
   "snapshots": [
     {
@@ -35,6 +35,24 @@
       "capturedAt": "2026-10-27T08:59:01.340564+09:00",
       "documentId": "1ZjuZ8Q0NYilpkVLrZ7O6QH_tPksNyfGVHbljOeBgviI",
       "note": "Full text with an explicit inline-figure reference; native Google Docs contains the PNG. Codebook draft and LF development fixture only; real respondents0; inference not run.",
+      "figures": [
+        {
+          "path": "research/figures/lf-development-fixture.svg",
+          "sha256": "eb448b06e5b6b0fd23898333fcff97ec8a1d496859c106f69d3d6093a75ab638"
+        },
+        {
+          "path": "research/figures/lf-development-fixture.png",
+          "sha256": "4064f7b224b8715d807635d983d2984bf95005fb1a2d456966c36a79f69d3ddc"
+        }
+      ]
+    },
+    {
+      "version": "v0.7",
+      "path": "research/versions/v0.7-report.md",
+      "sha256": "25cd3db3b1e07ee6fc8e40d04354e71a5b0b6e6469cfe297bfc13b583bc8ccf0",
+      "capturedAt": "2026-10-27T19:21:24.046405+09:00",
+      "documentId": "1ZjuZ8Q0NYilpkVLrZ7O6QH_tPksNyfGVHbljOeBgviI",
+      "note": "Review packet and eight faculty tasks prepared; not conducted. Full text with existing inline-figure reference; native Docs retains image.",
       "figures": [
         {
           "path": "research/figures/lf-development-fixture.svg",
