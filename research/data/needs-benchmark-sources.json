@@ -1,0 +1,56 @@
+{
+  "verifiedOn": "2026-10-27",
+  "scope": "Purposive benchmark, not systematic review; adaptations are author-created, no validated scale inherited",
+  "sources": [
+    {
+      "code": "K1",
+      "doi": "10.15833/KAFEIAM.30.3.907",
+      "url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART003094045",
+      "read": "KCI bibliographic record and abstract",
+      "use": "문헌/사례-요구-설계원리-개발/평가 연결"
+    },
+    {
+      "code": "K2",
+      "doi": "10.15833/kaeim.2026.32.4.016",
+      "url": "https://www.kci.go.kr/kciportal/landing/article.kci?arti_id=ART003371872",
+      "read": "KCI bibliographic record and abstract",
+      "use": "현존자료·과업·설문/면담을 함께 준비"
+    },
+    {
+      "code": "K3",
+      "doi": "10.23122/kactl.2024.17.3.002",
+      "url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART003111725",
+      "read": "KCI bibliographic record and abstract",
+      "use": "역할·규칙·도구의 실제 사용 맥락"
+    },
+    {
+      "code": "K4",
+      "doi": "10.17232/KSET.41.2.509",
+      "url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART003216787",
+      "read": "KCI bibliographic record and abstract; society PDF download returned script, not a PDF",
+      "use": "문항 검토·개발·현장 적용의 증거 분리"
+    },
+    {
+      "code": "K5",
+      "doi": "10.17232/KSET.41.4.1367",
+      "url": "https://www.kci.go.kr/kciportal/landing/article.kci?arti_id=ART003286807",
+      "read": "KCI bibliographic record and abstract",
+      "use": "기능·플랫폼·인프라의 범위 분리; metaverse context is not transplanted"
+    },
+    {
+      "code": "O1",
+      "doi": "10.1111/jcal.12997",
+      "url": "https://onlinelibrary.wiley.com/doi/full/10.1111/jcal.12997",
+      "read": "Publisher full text, methods3.1/3.3 and results4.2/4.3",
+      "use": "기능 제시 전 문제 탐색과 제시 후 검토 구분"
+    },
+    {
+      "code": "O2",
+      "doi": "10.1007/s11423-025-10577-9",
+      "url": "https://link.springer.com/article/10.1007/s11423-025-10577-9",
+      "read": "Publisher full text, research design/teacher feedback and citation metadata",
+      "use": "면담-설계-개발/사용성-현장 적용 추적",
+      "yearNote": "Online2025, assigned volume74 pp517-548 issue2026; APA reference uses2026"
+    }
+  ]
+}

@@ -1,0 +1,267 @@
+{
+  "version": "needs-1.0-proposal",
+  "authoredOn": "2026-10-27",
+  "status": "Complete wording draft; not administered, validated, approved or released for collection",
+  "actualRespondents": 0,
+  "referencePeriod": "응답일 기준 이번 학기",
+  "currentEnvironment": "학교에서 현재 사용하는 학사시스템·문서·상담 절차 전체. 연구용 신규 프로토타입은 제외",
+  "importanceAnchors": [
+    "1 전혀 필요하지 않다",
+    "2 별로 필요하지 않다",
+    "3 보통이다",
+    "4 필요하다",
+    "5 매우 필요하다"
+  ],
+  "currentAnchors": [
+    "1 전혀 지원되지 않는다",
+    "2 별로 지원되지 않는다",
+    "3 보통이다",
+    "4 지원된다",
+    "5 충분히 지원된다"
+  ],
+  "missing": [
+    "DK 판단하기 어려움",
+    "NE 경험 없음",
+    "RF 응답하지 않음"
+  ],
+  "items": [
+    {
+      "id": "R01",
+      "label": "모듈 이수 현황",
+      "rationale": "선택 모듈의 현재 상태를 확인하는 정보 요구",
+      "prerequisites": [
+        "PR02",
+        "PR05",
+        "PR06"
+      ],
+      "benchmarks": [
+        "K1",
+        "K4"
+      ],
+      "task": "T01",
+      "facultyImportance": "학생별 선택 모듈의 이수 현황을 한 화면에서 확인하는 기능이 필요하다.",
+      "facultyCurrent": "현재 업무 환경에서 학생별 선택 모듈의 이수 현황을 한 화면에서 확인할 수 있다.",
+      "studentImportance": "내가 선택한 모듈의 이수 현황을 한 화면에서 확인하는 기능이 필요하다.",
+      "studentCurrent": "현재 학교의 지원 환경에서 내가 선택한 모듈의 이수 현황을 한 화면에서 확인할 수 있다.",
+      "comparison": "conceptually aligned; equivalence not validated"
+    },
+    {
+      "id": "R02",
+      "label": "남은 이수 항목",
+      "rationale": "선택한 단일 모듈의 남은 경로 파악; 졸업/복수모듈 인정과 구분",
+      "prerequisites": [
+        "PR02",
+        "PR03",
+        "PR06"
+      ],
+      "benchmarks": [
+        "K1",
+        "K2"
+      ],
+      "task": "T02",
+      "facultyImportance": "학생이 선택한 모듈에서 아직 충족하지 못한 이수 항목을 확인하는 기능이 필요하다.",
+      "facultyCurrent": "현재 업무 환경에서 학생이 선택한 모듈의 미충족 이수 항목을 확인할 수 있다.",
+      "studentImportance": "내가 선택한 모듈에서 아직 충족하지 못한 이수 항목을 확인하는 기능이 필요하다.",
+      "studentCurrent": "현재 학교의 지원 환경에서 내가 선택한 모듈의 미충족 이수 항목을 확인할 수 있다.",
+      "comparison": "conceptually aligned; equivalence not validated"
+    },
+    {
+      "id": "R03",
+      "label": "이수 기준의 출처",
+      "rationale": "판정에 사용한 공식 기준 확인; 버전은 출처 기록의 메타데이터로 관리",
+      "prerequisites": [
+        "PR02",
+        "PR06"
+      ],
+      "benchmarks": [
+        "K2",
+        "K4"
+      ],
+      "task": "T03",
+      "facultyImportance": "학생의 모듈 이수 판단에 사용한 공식 기준의 출처를 확인하는 기능이 필요하다.",
+      "facultyCurrent": "현재 업무 환경에서 학생의 모듈 이수 판단에 사용한 공식 기준의 출처를 확인할 수 있다.",
+      "studentImportance": "내 모듈 이수 판단에 사용한 공식 기준의 출처를 확인하는 기능이 필요하다.",
+      "studentCurrent": "현재 학교의 지원 환경에서 내 모듈 이수 판단에 사용한 공식 기준의 출처를 확인할 수 있다.",
+      "comparison": "conceptually aligned; equivalence not validated"
+    },
+    {
+      "id": "R04",
+      "label": "학업·진로 목표 기록",
+      "rationale": "이수 경로를 학생이 설정한 목표에 연결하는 상담 입력",
+      "prerequisites": [
+        "PR01",
+        "PR03",
+        "PR04"
+      ],
+      "benchmarks": [
+        "K1",
+        "K3"
+      ],
+      "task": "T04",
+      "facultyImportance": "학생의 학업·진로 목표를 상담 기록에 남기는 기능이 필요하다.",
+      "facultyCurrent": "현재 업무 환경에서 학생의 학업·진로 목표를 상담 기록에 남길 수 있다.",
+      "studentImportance": "내 학업·진로 목표를 상담 기록에 남기는 기능이 필요하다.",
+      "studentCurrent": "현재 학교의 지원 환경에서 내 학업·진로 목표를 상담 기록에 남길 수 있다.",
+      "comparison": "conceptually aligned; equivalence not validated"
+    },
+    {
+      "id": "R05",
+      "label": "설계 변경 사유",
+      "rationale": "변경 여부가 아닌 선택 조정의 이유를 보존하는 요구",
+      "prerequisites": [
+        "PR01",
+        "PR03",
+        "PR04"
+      ],
+      "benchmarks": [
+        "K3"
+      ],
+      "task": "T04",
+      "facultyImportance": "학생의 모듈 이수 계획 변경 사유를 기록하는 기능이 필요하다.",
+      "facultyCurrent": "현재 업무 환경에서 학생의 모듈 이수 계획 변경 사유를 기록할 수 있다.",
+      "studentImportance": "내 모듈 이수 계획 변경 사유를 기록하는 기능이 필요하다.",
+      "studentCurrent": "현재 학교의 지원 환경에서 내 모듈 이수 계획 변경 사유를 기록할 수 있다.",
+      "comparison": "conceptually aligned; equivalence not validated"
+    },
+    {
+      "id": "R06",
+      "label": "학생 성찰 기록",
+      "rationale": "학생 자신의 선택 해석을 기록; 만족/메타인지 성과 척도 아님",
+      "prerequisites": [
+        "PR01",
+        "PR03",
+        "PR04"
+      ],
+      "benchmarks": [
+        "K3"
+      ],
+      "task": "T04",
+      "facultyImportance": "학생이 자신의 모듈 선택을 돌아본 내용을 기록하는 기능이 필요하다.",
+      "facultyCurrent": "현재 업무 환경에서 학생이 자신의 모듈 선택을 돌아본 내용을 기록할 수 있다.",
+      "studentImportance": "내 모듈 선택을 돌아본 내용을 기록하는 기능이 필요하다.",
+      "studentCurrent": "현재 학교의 지원 환경에서 내 모듈 선택을 돌아본 내용을 기록할 수 있다.",
+      "comparison": "conceptually aligned; equivalence not validated"
+    },
+    {
+      "id": "R07",
+      "label": "교수자 피드백 재조회",
+      "rationale": "상담 피드백의 보존과 재접근이라는 하나의 사용 과업",
+      "prerequisites": [
+        "PR03",
+        "PR04",
+        "PR05"
+      ],
+      "benchmarks": [
+        "K1",
+        "K3"
+      ],
+      "task": "T05",
+      "facultyImportance": "학생에게 제공한 상담 피드백을 나중에 다시 조회하는 기능이 필요하다.",
+      "facultyCurrent": "현재 업무 환경에서 학생에게 제공한 상담 피드백을 나중에 다시 조회할 수 있다.",
+      "studentImportance": "내가 받은 상담 피드백을 나중에 다시 조회하는 기능이 필요하다.",
+      "studentCurrent": "현재 학교의 지원 환경에서 내가 받은 상담 피드백을 나중에 다시 조회할 수 있다.",
+      "comparison": "conceptually aligned; equivalence not validated"
+    },
+    {
+      "id": "R08",
+      "label": "후속 과제 점검",
+      "rationale": "상담 후 합의한 학업 과제의 이행 여부 확인",
+      "prerequisites": [
+        "PR03",
+        "PR04",
+        "PR05"
+      ],
+      "benchmarks": [
+        "K1",
+        "K2"
+      ],
+      "task": "T05",
+      "facultyImportance": "상담에서 합의한 학생의 후속 과제 이행 상태를 확인하는 기능이 필요하다.",
+      "facultyCurrent": "현재 업무 환경에서 상담에서 합의한 학생의 후속 과제 이행 상태를 확인할 수 있다.",
+      "studentImportance": "상담에서 합의한 내 후속 과제의 이행 상태를 확인하는 기능이 필요하다.",
+      "studentCurrent": "현재 학교의 지원 환경에서 상담에서 합의한 내 후속 과제의 이행 상태를 확인할 수 있다.",
+      "comparison": "conceptually aligned; equivalence not validated"
+    },
+    {
+      "id": "R09",
+      "label": "선택 제안의 근거",
+      "rationale": "제안 주체와 무관한 근거 접근; AI 사용경험을 전제하지 않음",
+      "prerequisites": [
+        "PR01",
+        "PR03",
+        "PR07"
+      ],
+      "benchmarks": [
+        "K3",
+        "K4",
+        "K5"
+      ],
+      "task": "T06",
+      "facultyImportance": "학생에게 제시된 학업 경로 제안의 근거를 확인하는 기능이 필요하다.",
+      "facultyCurrent": "현재 업무 환경에서 학생에게 제시된 학업 경로 제안의 근거를 확인할 수 있다.",
+      "studentImportance": "내게 제시된 학업 경로 제안의 근거를 확인하는 기능이 필요하다.",
+      "studentCurrent": "현재 학교의 지원 환경에서 내게 제시된 학업 경로 제안의 근거를 확인할 수 있다.",
+      "comparison": "conceptually aligned; equivalence not validated"
+    },
+    {
+      "id": "R10",
+      "label": "교수자 최종 판단 기록",
+      "rationale": "자동 제안의 채택 여부를 교수가 결정한다는 설계 원칙; 학생은 통지 관점",
+      "prerequisites": [
+        "PR01",
+        "PR03",
+        "PR08"
+      ],
+      "benchmarks": [
+        "K3",
+        "K5"
+      ],
+      "task": "T06",
+      "facultyImportance": "학업 경로 제안에 대한 교수자의 최종 검토 의견을 기록하는 기능이 필요하다.",
+      "facultyCurrent": "현재 업무 환경에서 학업 경로 제안에 대한 교수자의 최종 검토 의견을 기록할 수 있다.",
+      "studentImportance": "학업 경로 제안에 대한 교수자의 최종 검토 의견을 확인하는 기능이 필요하다.",
+      "studentCurrent": "현재 학교의 지원 환경에서 학업 경로 제안에 대한 교수자의 최종 검토 의견을 확인할 수 있다.",
+      "comparison": "role-specific; do not directly compare"
+    },
+    {
+      "id": "R11",
+      "label": "자료 오류 안내",
+      "rationale": "오류 발생의 인지와 잘못된 판단 방지; 시스템 정확도 검증 아님",
+      "prerequisites": [
+        "PR05",
+        "PR06",
+        "PR08"
+      ],
+      "benchmarks": [
+        "K2",
+        "K4"
+      ],
+      "task": "T07",
+      "facultyImportance": "학생 이수 자료를 읽거나 갱신하는 데 문제가 생겼을 때 오류 안내를 받는 기능이 필요하다.",
+      "facultyCurrent": "현재 업무 환경에서 학생 이수 자료의 읽기·갱신 문제에 대한 오류 안내를 받을 수 있다.",
+      "studentImportance": "내 이수 자료를 읽거나 갱신하는 데 문제가 생겼을 때 오류 안내를 받는 기능이 필요하다.",
+      "studentCurrent": "현재 학교의 지원 환경에서 내 이수 자료의 읽기·갱신 문제에 대한 오류 안내를 받을 수 있다.",
+      "comparison": "conceptually aligned; equivalence not validated"
+    },
+    {
+      "id": "R12",
+      "label": "정보 접근 범위",
+      "rationale": "교수자 권한 제한과 학생 정보 접근 보호의 역할별 요구; 동등성 미확정",
+      "prerequisites": [
+        "PR03",
+        "PR06",
+        "PR08"
+      ],
+      "benchmarks": [
+        "K3",
+        "K5"
+      ],
+      "task": "T08",
+      "facultyImportance": "담당 업무상 허용된 학생 정보만 조회하도록 접근 범위를 제한하는 기능이 필요하다.",
+      "facultyCurrent": "현재 업무 환경에서 담당 업무상 허용된 학생 정보만 조회하도록 접근 범위가 제한된다.",
+      "studentImportance": "내 학업 정보에 접근할 수 있는 사람의 범위를 제한하는 기능이 필요하다.",
+      "studentCurrent": "현재 학교의 지원 환경에서 내 학업 정보에 접근할 수 있는 사람의 범위가 제한된다.",
+      "comparison": "role-specific; do not directly compare"
+    }
+  ]
+}

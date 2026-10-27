@@ -98,6 +98,12 @@
       "path": "research/02-methods/instrument-review-packet.md"
     },
     {
+      "id": "02-methods-needs-analysis-prerequisites",
+      "group": "Ⅱ. 연구 방법과 수행",
+      "title": "요구분석을 위한 사전 자료와 확보·활용 계획",
+      "path": "research/02-methods/needs-analysis-prerequisites.md"
+    },
+    {
       "id": "02-methods-needs-analysis-readiness",
       "group": "Ⅱ. 연구 방법과 수행",
       "title": "요구분석 계산 절차의 사전 점검과 일정 상태",
@@ -108,6 +114,24 @@
       "group": "Ⅱ. 연구 방법과 수행",
       "title": "교수자·학생 요구조사 코드북과 응답 안내 초안",
       "path": "research/02-methods/needs-codebook-draft.md"
+    },
+    {
+      "id": "02-methods-needs-instrument-design",
+      "group": "Ⅱ. 연구 방법과 수행",
+      "title": "요구분석 설문 문항의 설계·코드북·분석 연결",
+      "path": "research/02-methods/needs-instrument-design.md"
+    },
+    {
+      "id": "02-methods-survey-faculty-v1",
+      "group": "Ⅱ. 연구 방법과 수행",
+      "title": "교수자·교육과정 관리자용 요구분석 설문지 — 전체 문항",
+      "path": "research/02-methods/survey-faculty-v1.md"
+    },
+    {
+      "id": "02-methods-survey-student-v1",
+      "group": "Ⅱ. 연구 방법과 수행",
+      "title": "학생용 요구분석 설문지 — 전체 문항",
+      "path": "research/02-methods/survey-student-v1.md"
     },
     {
       "id": "02-methods-synthetic-data",

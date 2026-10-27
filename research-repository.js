@@ -18,7 +18,15 @@ window.ResearchRepository = (() => {
       const target=documents.find(d=>d.path===current.path.slice(0,current.path.lastIndexOf('/')+1)+file);
       return target?`<button class="text-button" data-document="${escape(target.id)}">${label}</button>`:match;
     });
-    return markdown.split(/\r?\n/).filter(line=>!/^<!-- report-body:(start|end) -->$/.test(line)).map(line=>{
+    const lines=markdown.split(/\r?\n/),consumed=new Set();
+    return lines.map((line,i)=>{
+      if(consumed.has(i)||/^<!-- report-body:(start|end) -->$/.test(line))return '';
+      if(line.startsWith('|')&&/^\|\s*:?-{3,}/.test(lines[i+1]||'')){
+        const cells=row=>row.trim().replace(/^\||\|$/g,'').split('|').map(v=>v.trim());
+        const heads=cells(line),rows=[];consumed.add(i+1);
+        for(let j=i+2;j<lines.length&&lines[j].startsWith('|');j++){rows.push(cells(lines[j]));consumed.add(j);}
+        return `<div role="region" aria-label="연구 자료 표" tabindex="0" style="max-width:100%;overflow-x:auto"><table style="border-collapse:collapse;width:100%;min-width:560px"><thead><tr>${heads.map(v=>`<th scope="col" style="padding:10px;border:1px solid #cbd5e1;text-align:left">${inline(v)}</th>`).join('')}</tr></thead><tbody>${rows.map(row=>`<tr>${heads.map((_,k)=>`<td style="padding:10px;border:1px solid #cbd5e1;vertical-align:top">${inline(row[k]||'')}</td>`).join('')}</tr>`).join('')}</tbody></table></div>`;
+      }
       const figure=line.match(/^!\[([^\]]*)\]\((research\/figures\/[a-zA-Z0-9._-]+\.(?:png|svg))\)$/);
       if(figure)return `<figure><a href="${escape(figure[2])}" target="_blank" rel="noopener noreferrer"><img src="${escape(figure[2])}" alt="${escape(figure[1])}" style="max-width:100%;height:auto" loading="lazy"></a><figcaption>${escape(figure[1])}</figcaption></figure>`;
       const heading=line.match(/^(#{1,3}) (.*)$/);

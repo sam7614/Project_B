@@ -1,7 +1,7 @@
 {
-  "currentVersion": "v0.7",
-  "baselineVersion": "v0.6",
-  "baselineGitCommit": "bf50090",
+  "currentVersion": "v0.8",
+  "baselineVersion": "v0.7",
+  "baselineGitCommit": "2ce6fba",
   "scope": "Named completed work versions; not per-keystroke tracking or automatic synchronization of all manual edits.",
   "snapshots": [
     {
@@ -53,6 +53,24 @@
       "capturedAt": "2026-10-27T19:21:24.046405+09:00",
       "documentId": "1ZjuZ8Q0NYilpkVLrZ7O6QH_tPksNyfGVHbljOeBgviI",
       "note": "Review packet and eight faculty tasks prepared; not conducted. Full text with existing inline-figure reference; native Docs retains image.",
+      "figures": [
+        {
+          "path": "research/figures/lf-development-fixture.svg",
+          "sha256": "eb448b06e5b6b0fd23898333fcff97ec8a1d496859c106f69d3d6093a75ab638"
+        },
+        {
+          "path": "research/figures/lf-development-fixture.png",
+          "sha256": "4064f7b224b8715d807635d983d2984bf95005fb1a2d456966c36a79f69d3ddc"
+        }
+      ]
+    },
+    {
+      "version": "v0.8",
+      "path": "research/versions/v0.8-report.md",
+      "sha256": "98835f03651b5417d8905312416c5494579c78086aa93c6f877d509f82b6d743",
+      "capturedAt": "2026-10-27T20:44:00.918967+09:00",
+      "documentId": "1ZjuZ8Q0NYilpkVLrZ7O6QH_tPksNyfGVHbljOeBgviI",
+      "note": "Prerequisite native table included in text; full faculty/student instrument wording, own unvalidated proposal, actual respondents0; nine domestic/six international scholarly references.",
       "figures": [
         {
           "path": "research/figures/lf-development-fixture.svg",

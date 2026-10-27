@@ -4,3 +4,4 @@
 @media print{body{background:white}.app-header,.sidebar,.page-heading,.banner,.no-print,#toast{display:none!important}.app-layout{display:block}main{padding:0;max-width:none}#viewRoot>.panel{border:0;padding:0}.preview-cover{break-after:page}.preview-section h2{break-after:avoid}.preview-section a{color:inherit}a{overflow-wrap:anywhere}@page{size:A4;margin:20mm}}
 
 .repository-document{overflow-wrap:anywhere}.repository-document h2{font-size:21px;margin:24px 0 16px}.repository-document h3{font-size:16px;margin:24px 0 12px}.repository-document h4{font-size:14px;margin:20px 0 10px}.repository-document p{font-size:13px;white-space:pre-wrap;color:#425969;line-height:1.9}
+.repository-document { min-width: 0; overflow-wrap: anywhere; }
