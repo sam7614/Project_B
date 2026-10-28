@@ -50,6 +50,12 @@
       "path": "research/01-overview/report-versions.md"
     },
     {
+      "id": "01-overview-schedule-sync",
+      "group": "Ⅰ. 연구 개요",
+      "title": "연구 완성 일정표와 보고서 진행 상태의 연계",
+      "path": "research/01-overview/schedule-sync.md"
+    },
+    {
       "id": "literature",
       "group": "Ⅱ. 연구 방법과 수행",
       "title": "문헌 검토·국내외 사례 분석",
@@ -306,6 +312,12 @@
       "group": "Ⅴ. 제출용 요약",
       "title": "2026-10-27 연구 수행·일일 보고",
       "path": "research/05-summaries/daily-2026-10-27.md"
+    },
+    {
+      "id": "05-summaries-daily-2026-10-28",
+      "group": "Ⅴ. 제출용 요약",
+      "title": "2026-10-28 연구 수행 기록",
+      "path": "research/05-summaries/daily-2026-10-28.md"
     },
     {
       "id": "appendix",

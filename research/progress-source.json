@@ -1,0 +1,244 @@
+{
+  "basedOnReportVersion": "v0.8",
+  "reportStatus": "in_progress",
+  "reviewedAt": "2026-10-28T15:19:24+09:00",
+  "reportUrl": "https://docs.google.com/document/d/1ZjuZ8Q0NYilpkVLrZ7O6QH_tPksNyfGVHbljOeBgviI/edit",
+  "dailyReportUrl": "https://docs.google.com/document/d/1fQxe3mrd1y8zqTBfkfNYT5fTjDLT4ZmIHZlxj2pWdLI/edit",
+  "reportNote": "31쪽의 누적 작업 원고입니다. 사전 자료·설문 전체 문구와 개발 검증을 보완했으며 실제 요구분석·전문가/사용자 평가 결과는 아직 없습니다.",
+  "scope": "공유 상태는 연구 기록·증빙을 대조한 뒤 Git으로 발행합니다. 실제 조사와 합성 개발 검증, 초안 작성과 최종 완료를 구분합니다.",
+  "actualParticipants": 0,
+  "deliverables": [
+    {
+      "title": "요구분석 사전 자료 8종 정리",
+      "status": "complete",
+      "note": "필요 자료·확보 여부·문항 활용을 문서화했습니다. 미확보 기관 자료를 확보한 것으로 표시하지 않습니다.",
+      "evidence": [
+        {
+          "label": "근거 문서",
+          "url": "research/02-methods/needs-analysis-prerequisites.md"
+        }
+      ],
+      "completedOn": "2026-10-27"
+    },
+    {
+      "title": "교수자·학생용 전체 설문 문구 작성",
+      "status": "complete",
+      "note": "각 배경6·핵심12쌍·우선1·개방형3문항 작성. 실제 조사·타당화는 미실시입니다.",
+      "evidence": [
+        {
+          "label": "근거 문서",
+          "url": "research/02-methods/needs-instrument-design.md"
+        }
+      ],
+      "completedOn": "2026-10-27"
+    },
+    {
+      "title": "문항 검토 양식·교수자 8과업 준비",
+      "status": "complete",
+      "note": "빈 검토표와 과업 프로토콜의 준비 완료이며 실제 검토/평가 결과가 아닙니다.",
+      "evidence": [
+        {
+          "label": "근거 문서",
+          "url": "research/03-results/faculty-task-protocol.md"
+        }
+      ],
+      "completedOn": "2026-10-27"
+    },
+    {
+      "title": "TU 교육과정·합성 이수 자료 연결",
+      "status": "complete",
+      "note": "4대학24학과234모듈·합성1,000명/이수3,789항목의 기술적 연결·검증 이력입니다.",
+      "evidence": [
+        {
+          "label": "근거 문서",
+          "url": "research/03-results/tu-curriculum-matching.md"
+        }
+      ],
+      "completedOn": "2026-10-25"
+    },
+    {
+      "title": "최종 연구보고서 누적 집필",
+      "status": "in_progress",
+      "note": "v0.8·31쪽. 초안 작성과 실제 결과보고서 완성/제출은 구분합니다.",
+      "evidence": [
+        {
+          "label": "근거 문서",
+          "url": "research/01-overview/report-versions.md"
+        }
+      ]
+    },
+    {
+      "title": "실제 요구조사·평가",
+      "status": "blocked",
+      "note": "실제 응답자·평가 참여자0명. 도구 검토·기관/모집·실제 자료 확보가 필요합니다.",
+      "evidence": [
+        {
+          "label": "근거 문서",
+          "url": "research/02-methods/needs-analysis-readiness.md"
+        }
+      ]
+    }
+  ],
+  "tasks": {
+    "r06a": {
+      "status": "in_progress",
+      "note": "월별 일정·연구문제 초안·자료 관리 문서를 마련했습니다. 연구 실행 세부 조건은 계속 보완합니다.",
+      "evidence": [
+        {
+          "label": "근거 문서",
+          "url": "research/01-overview/overview.md"
+        }
+      ]
+    },
+    "a1": {
+      "status": "in_progress",
+      "note": "KCI5편/해외2편의 방법 벤치마킹을 보완했습니다. 계획한 국내외 플랫폼 사례 전체 분석의 완료는 아닙니다.",
+      "evidence": [
+        {
+          "label": "근거 문서",
+          "url": "research/02-methods/literature.md"
+        }
+      ]
+    },
+    "r07a": {
+      "status": "in_progress",
+      "note": "필요성·목적4쪽과 문헌 근거를 작성했습니다. 최종 이론 틀·전체 사례 연결은 보완 대상입니다.",
+      "evidence": [
+        {
+          "label": "근거 문서",
+          "url": "research/01-overview/overview.md"
+        }
+      ]
+    },
+    "r08a": {
+      "status": "in_progress",
+      "note": "전체 설문 문구와 검토 양식은 작성했습니다. 문항 내용·이해도/타당성 검토가 남았습니다.",
+      "evidence": [
+        {
+          "label": "근거 문서",
+          "url": "research/02-methods/survey.md"
+        }
+      ]
+    },
+    "r08b": {
+      "status": "unverified",
+      "note": "기관 승인/면제·실제 진행 증빙을 확인하지 못했습니다. 계획서의 예정일을 실제 승인일로 보지 않습니다.",
+      "evidence": [
+        {
+          "label": "근거 문서",
+          "url": "research/02-methods/ethics.md"
+        }
+      ]
+    },
+    "r09a": {
+      "status": "blocked",
+      "note": "실제 응답자0명. 설문·FGI는 미실시이며 기관/모집·도구 확정이 선행돼야 합니다.",
+      "evidence": [
+        {
+          "label": "근거 문서",
+          "url": "research/02-methods/survey.md"
+        }
+      ]
+    },
+    "a2": {
+      "status": "blocked",
+      "note": "도구 초안·준비 문서는 있으나 실제 승인·동의·응답·면담 증빙은 확인되지 않았습니다.",
+      "evidence": [
+        {
+          "label": "근거 문서",
+          "url": "research/02-methods/needs-analysis-prerequisites.md"
+        }
+      ]
+    },
+    "a3": {
+      "status": "blocked",
+      "note": "합성 개발 자료와 실제 조사 분석본은 별도입니다. 실제 설문 원자료와 표집틀이 없습니다.",
+      "evidence": [
+        {
+          "label": "근거 문서",
+          "url": "research/02-methods/needs-analysis-readiness.md"
+        }
+      ]
+    },
+    "b1": {
+      "status": "blocked",
+      "note": "가상 t통계량 산술만 검증했습니다. 실제 t검정·p값·신뢰구간·효과크기 분석은 미완료입니다.",
+      "evidence": [
+        {
+          "label": "근거 문서",
+          "url": "research/02-methods/needs-analysis-readiness.md"
+        }
+      ]
+    },
+    "b2": {
+      "status": "blocked",
+      "note": "가상 Borich 산술 검증과 실제 요구도 산출을 구분합니다. 실증 원자료·완료 증빙이 없습니다.",
+      "evidence": [
+        {
+          "label": "근거 문서",
+          "url": "research/02-methods/needs-analysis-readiness.md"
+        }
+      ]
+    },
+    "b3": {
+      "status": "blocked",
+      "note": "가상 LF 그림 출력은 완료했지만 실제 응답 자료의 LF 결과는 미완료입니다.",
+      "evidence": [
+        {
+          "label": "근거 문서",
+          "url": "research/03-results/lf-fixture-verification.md"
+        }
+      ]
+    },
+    "b4": {
+      "status": "blocked",
+      "note": "10/30 목표입니다. 실제 요구분석 없이 가상 순위로 기능 우선순위를 확정하지 않습니다.",
+      "evidence": [
+        {
+          "label": "근거 문서",
+          "url": "research/02-methods/needs-instrument-design.md"
+        }
+      ]
+    },
+    "c1": {
+      "status": "in_progress",
+      "note": "v0.8에 문헌·도구·기술 검증을 누적했습니다. 실제 요구 결과의 미확인을 명시한 중간 문서가 필요합니다.",
+      "evidence": [
+        {
+          "label": "근거 문서",
+          "url": "research/01-overview/report-versions.md"
+        }
+      ]
+    },
+    "d1": {
+      "status": "in_progress",
+      "note": "기존 교수자 대시보드 화면은 있으나 상담·성찰·교수자 판단과 학생 역할의 전체 설계는 보완 중입니다.",
+      "evidence": [
+        {
+          "label": "근거 문서",
+          "url": "research/03-results/prototype-review.md"
+        }
+      ]
+    },
+    "d2": {
+      "status": "in_progress",
+      "note": "기존 교수자 프로토타입과 합성 동기화는 확인했습니다. 상담 저장·판단 등 전체 핵심 시나리오는 미완성입니다.",
+      "evidence": [
+        {
+          "label": "근거 문서",
+          "url": "research/03-results/tasks.md"
+        }
+      ]
+    },
+    "e3": {
+      "status": "in_progress",
+      "note": "v0.8 누적 원고는 있으나 실제 결과·평가·논의를 포함한 전체 초안 완성은 아닙니다.",
+      "evidence": [
+        {
+          "label": "근거 문서",
+          "url": "research/versions/v0.8-report.md"
+        }
+      ]
+    }
+  }
+}
