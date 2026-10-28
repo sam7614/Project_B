@@ -1,0 +1,308 @@
+{
+  "schemaVersion": 1,
+  "version": "synthetic-advising-test-plan-v1",
+  "createdOn": "2026-10-28",
+  "synthetic": true,
+  "actualParticipants": 0,
+  "productExecution": "not_run",
+  "productBaseline": "f23d853",
+  "scope": "Prepared positive/negative scenarios only. Document validators are not product or participant evaluation.",
+  "cases": [
+    {
+      "id": "SC-01-P",
+      "requirement": "REQ-M01",
+      "tasks": [
+        "T01",
+        "T02",
+        "T03"
+      ],
+      "polarity": "positive",
+      "status": "not_run",
+      "input": "공식 기준이 확인된 단일 모듈과 출처 버전을 선택",
+      "expected": "학점과 출처·판정 범위를 함께 설명",
+      "evidenceToCapture": "화면 수치·원자료·출처 버전·보류 사유",
+      "prerequisite": "조회 기능은 있으나 이번 제품 실행은 미실시",
+      "segments": [
+        "SYN-E02-Q02",
+        "SYN-E08-Q01"
+      ]
+    },
+    {
+      "id": "SC-01-N",
+      "requirement": "REQ-M01",
+      "tasks": [
+        "T01",
+        "T02",
+        "T03"
+      ],
+      "polarity": "negative",
+      "status": "not_run",
+      "input": "졸업/중복 인정 기준을 미확정으로 둔 사례",
+      "expected": "공식 졸업 판정을 보류하고 미확정 규정을 표시",
+      "evidenceToCapture": "화면 수치·원자료·출처 버전·보류 사유",
+      "prerequisite": "조회 기능은 있으나 이번 제품 실행은 미실시",
+      "segments": [
+        "SYN-E02-Q02",
+        "SYN-E08-Q01"
+      ]
+    },
+    {
+      "id": "SC-02-P",
+      "requirement": "REQ-M02",
+      "tasks": [
+        "T05"
+      ],
+      "polarity": "positive",
+      "status": "not_run",
+      "input": "합성 상담 피드백·다음 과제·기준 시각을 입력 후 새 세션 조회",
+      "expected": "동일 학생의 기록과 후속 과제가 일치",
+      "evidenceToCapture": "저장 요청/응답·연구키·재조회·중복 키",
+      "prerequisite": "영속 저장·권한 구현 확인 선행",
+      "segments": [
+        "SYN-E04-Q04",
+        "SYN-E01-Q04"
+      ]
+    },
+    {
+      "id": "SC-02-N",
+      "requirement": "REQ-M02",
+      "tasks": [
+        "T05"
+      ],
+      "polarity": "negative",
+      "status": "not_run",
+      "input": "동일 요청 재전송과 다른 학생 조회",
+      "expected": "중복 기록을 막고 학생 간 기록을 혼합하지 않음",
+      "evidenceToCapture": "저장 요청/응답·연구키·재조회·중복 키",
+      "prerequisite": "영속 저장·권한 구현 확인 선행",
+      "segments": [
+        "SYN-E04-Q04",
+        "SYN-E01-Q04"
+      ]
+    },
+    {
+      "id": "SC-03-P",
+      "requirement": "REQ-M03",
+      "tasks": [
+        "T04"
+      ],
+      "polarity": "positive",
+      "status": "not_run",
+      "input": "가상 목표와 변경 사유·성찰을 차례로 입력",
+      "expected": "현재 목표와 이전 이력·선택 이유를 구분",
+      "evidenceToCapture": "변경 전후·저장 시각·새 세션 조회",
+      "prerequisite": "영속 저장 구현 확인 선행",
+      "segments": [
+        "SYN-E03-Q04",
+        "SYN-E09-Q04"
+      ]
+    },
+    {
+      "id": "SC-03-N",
+      "requirement": "REQ-M03",
+      "tasks": [
+        "T04"
+      ],
+      "polarity": "negative",
+      "status": "not_run",
+      "input": "성찰 미입력과 목표 변경 취소",
+      "expected": "미입력을 심리 위험으로 판정하지 않고 취소 전 상태 보존",
+      "evidenceToCapture": "변경 전후·저장 시각·새 세션 조회",
+      "prerequisite": "영속 저장 구현 확인 선행",
+      "segments": [
+        "SYN-E03-Q04",
+        "SYN-E09-Q04"
+      ]
+    },
+    {
+      "id": "SC-04-P",
+      "requirement": "REQ-M04",
+      "tasks": [
+        "T06"
+      ],
+      "polarity": "positive",
+      "status": "not_run",
+      "input": "가상 제안의 출처·규칙 버전·교수자 수정 의견 입력",
+      "expected": "제안과 사람의 판단·이유를 별도 이력으로 표시",
+      "evidenceToCapture": "입력 버전·가상 제안 표시·교수자 판단 이력",
+      "prerequisite": "실제 AI·판단 저장 미구현",
+      "segments": [
+        "SYN-E04-Q05",
+        "SYN-E09-Q05"
+      ]
+    },
+    {
+      "id": "SC-04-N",
+      "requirement": "REQ-M04",
+      "tasks": [
+        "T06"
+      ],
+      "polarity": "negative",
+      "status": "not_run",
+      "input": "출처 없는 제안 또는 구버전 입력",
+      "expected": "불확실성·판단 유보 표시, 실제 AI 성능으로 보고하지 않음",
+      "evidenceToCapture": "입력 버전·가상 제안 표시·교수자 판단 이력",
+      "prerequisite": "실제 AI·판단 저장 미구현",
+      "segments": [
+        "SYN-E04-Q05",
+        "SYN-E09-Q05"
+      ]
+    },
+    {
+      "id": "SC-05-P",
+      "requirement": "REQ-M05",
+      "tasks": [
+        "T03",
+        "T07"
+      ],
+      "polarity": "positive",
+      "status": "not_run",
+      "input": "복제 fixture의 정상 이수 상태·평점으로 갱신",
+      "expected": "기준 시각·자료 출처와 파생값이 일치",
+      "evidenceToCapture": "오류 입력·응답·마지막 정상 화면·복구 캡처",
+      "prerequisite": "복제 fixture에서 실행 예정; 운영 시트 수정 금지",
+      "segments": [
+        "SYN-E04-Q07",
+        "SYN-E05-Q07"
+      ]
+    },
+    {
+      "id": "SC-05-N",
+      "requirement": "REQ-M05",
+      "tasks": [
+        "T03",
+        "T07"
+      ],
+      "polarity": "negative",
+      "status": "not_run",
+      "input": "실패 과목에 통과 평점 입력 또는 연결 실패",
+      "expected": "오류 안내·마지막 정상 자료 보존·정상 입력 복구",
+      "evidenceToCapture": "오류 입력·응답·마지막 정상 화면·복구 캡처",
+      "prerequisite": "복제 fixture에서 실행 예정; 운영 시트 수정 금지",
+      "segments": [
+        "SYN-E04-Q07",
+        "SYN-E05-Q07"
+      ]
+    },
+    {
+      "id": "SC-06-P",
+      "requirement": "REQ-M06",
+      "tasks": [
+        "T08"
+      ],
+      "polarity": "positive",
+      "status": "not_run",
+      "input": "가상 담당 교수 역할로 허용 학생 조회",
+      "expected": "서버가 허용 범위만 반환",
+      "evidenceToCapture": "역할·요청/응답·감사 기록; 비밀값 제외",
+      "prerequisite": "인증·서버 권한 미구현, 통과 판정 보류",
+      "segments": [
+        "SYN-E07-Q06",
+        "SYN-E07-Q07"
+      ]
+    },
+    {
+      "id": "SC-06-N",
+      "requirement": "REQ-M06",
+      "tasks": [
+        "T08"
+      ],
+      "polarity": "negative",
+      "status": "not_run",
+      "input": "비담당 학생 직접 API 요청과 권한 회수 후 재시도",
+      "expected": "서버에서 접근 차단하고 상담 메모가 응답에 포함되지 않음",
+      "evidenceToCapture": "역할·요청/응답·감사 기록; 비밀값 제외",
+      "prerequisite": "인증·서버 권한 미구현, 통과 판정 보류",
+      "segments": [
+        "SYN-E07-Q06",
+        "SYN-E07-Q07"
+      ]
+    },
+    {
+      "id": "SC-07-P",
+      "requirement": "REQ-M07",
+      "tasks": [
+        "T01",
+        "T05",
+        "T07"
+      ],
+      "polarity": "positive",
+      "status": "not_run",
+      "input": "모바일에서 학생 선택 후 필터·정상 갱신",
+      "expected": "선택 대상·상태·키보드 초점이 일관됨",
+      "evidenceToCapture": "전후 화면·초점·입력값·갱신 이벤트",
+      "prerequisite": "일부 화면 구현; 이번 과업 평가 미실시",
+      "segments": [
+        "SYN-E06-Q03",
+        "SYN-E06-Q07"
+      ]
+    },
+    {
+      "id": "SC-07-N",
+      "requirement": "REQ-M07",
+      "tasks": [
+        "T01",
+        "T05",
+        "T07"
+      ],
+      "polarity": "negative",
+      "status": "not_run",
+      "input": "작성 중 갱신 실패와 선택 학생 삭제",
+      "expected": "작성 내용 보존·오류 설명·선택 해제/복구 정책을 구분",
+      "evidenceToCapture": "전후 화면·초점·입력값·갱신 이벤트",
+      "prerequisite": "일부 화면 구현; 이번 과업 평가 미실시",
+      "segments": [
+        "SYN-E06-Q03",
+        "SYN-E06-Q07"
+      ]
+    },
+    {
+      "id": "SC-08-P",
+      "requirement": "REQ-M08",
+      "tasks": [
+        "T01",
+        "T02",
+        "T03",
+        "T04",
+        "T05",
+        "T06",
+        "T07",
+        "T08"
+      ],
+      "polarity": "positive",
+      "status": "not_run",
+      "input": "합성 준비 기록과 실제 조사 빈 원장을 각각 조회",
+      "expected": "합성·실제 자료 출처와 미실시 상태 분리",
+      "evidenceToCapture": "원장 구분·검증 오류·실제0명/실행0건 표시",
+      "prerequisite": "문서 검증만 이번 실행; 실제 모집·타당화 별도",
+      "segments": [
+        "SYN-E05-Q02",
+        "SYN-E05-Q08"
+      ]
+    },
+    {
+      "id": "SC-08-N",
+      "requirement": "REQ-M08",
+      "tasks": [
+        "T01",
+        "T02",
+        "T03",
+        "T04",
+        "T05",
+        "T06",
+        "T07",
+        "T08"
+      ],
+      "polarity": "negative",
+      "status": "not_run",
+      "input": "합성 응답을 실제 응답 9명 또는 실증 완료로 변경",
+      "expected": "검증기에서 거부하고 실증 지표를 생성하지 않음",
+      "evidenceToCapture": "원장 구분·검증 오류·실제0명/실행0건 표시",
+      "prerequisite": "문서 검증만 이번 실행; 실제 모집·타당화 별도",
+      "segments": [
+        "SYN-E05-Q02",
+        "SYN-E05-Q08"
+      ]
+    }
+  ]
+}

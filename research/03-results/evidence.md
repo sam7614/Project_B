@@ -96,3 +96,7 @@
 ## E-EVAL-001. 교수자 과업 평가 준비
 
 2026-10-27 저녁. [8개 과업 프로토콜](faculty-task-protocol.md)과 research/02-methods/instrument-review-packet.md. 자료·버전 고정, 완료 조건·예정 증거·미구현 보류, 미실행 값과 실제 측정값의 구분을 정리했다. 실제 참여자0명이며 새 과업 실행/사용자 평가 결과는 없다. 기존 기술 검증을 새 성과로 재계상하지 않았다.
+
+## E-SC-001. 합성 과업 실행 계획의 추적 검증
+
+2026-10-28 저녁. [실행 준비 점검](synthetic-scenario-readiness.md), synthetic-advising-test-plan-v1.json, validate-synthetic-test-plan.cjs와 test-synthetic-test-plan.cjs. 16개 계획/8요구후보/구절·범주·과업 대응과 8개 문서 검사를 확인했다. 제품 시나리오 실행0건·참여자0명이며 사용자/전문가 평가나 기능 통과가 아니다. 제품 f23d853의 상담 일지 버튼에 저장 처리가 없어 기존 보류를 유지했다.

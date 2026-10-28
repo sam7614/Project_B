@@ -1,7 +1,7 @@
 {
-  "currentVersion": "v0.9",
-  "baselineVersion": "v0.8",
-  "baselineGitCommit": "aa56ad3",
+  "currentVersion": "v0.10",
+  "baselineVersion": "v0.9",
+  "baselineGitCommit": "e456e78",
   "scope": "Named completed work versions; not per-keystroke tracking or automatic synchronization of all manual edits.",
   "snapshots": [
     {
@@ -89,6 +89,24 @@
       "capturedAt": "2026-10-28T17:40:04.487622+09:00",
       "documentId": "1ZjuZ8Q0NYilpkVLrZ7O6QH_tPksNyfGVHbljOeBgviI",
       "note": "Nine fictional expert profiles and72 AI-authored independent responses; simulated coding/requirements only, not actual FGI, actual participants0. Native tables included.",
+      "figures": [
+        {
+          "path": "research/figures/lf-development-fixture.svg",
+          "sha256": "eb448b06e5b6b0fd23898333fcff97ec8a1d496859c106f69d3d6093a75ab638"
+        },
+        {
+          "path": "research/figures/lf-development-fixture.png",
+          "sha256": "4064f7b224b8715d807635d983d2984bf95005fb1a2d456966c36a79f69d3ddc"
+        }
+      ]
+    },
+    {
+      "version": "v0.10",
+      "path": "research/versions/v0.10-report.md",
+      "sha256": "52f82f47c2b8a1f0d9d8f661c32d1fee1e8045d7c65a45ec1388dce5b9b3fce6",
+      "capturedAt": "2026-10-28T19:39:53.930+09:00",
+      "documentId": "1ZjuZ8Q0NYilpkVLrZ7O6QH_tPksNyfGVHbljOeBgviI",
+      "note": "Prepared sixteen scenarios; eight document-validator checks passed. Product cases not executed, actual participants0.",
       "figures": [
         {
           "path": "research/figures/lf-development-fixture.svg",
