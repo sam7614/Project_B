@@ -17,7 +17,7 @@ window.ResearchRepository = (() => {
     const inline=line=>escape(line).replace(/\[([^\]]+)\]\(([A-Za-z0-9-]+\.md)\)/g,(match,label,file)=>{
       const target=documents.find(d=>d.path===current.path.slice(0,current.path.lastIndexOf('/')+1)+file);
       return target?`<button class="text-button" data-document="${escape(target.id)}">${label}</button>`:match;
-    });
+    }).replace(/\[([^\]]+)\]\((https:\/\/(?:docs\.google\.com|drive\.google\.com|github\.com)\/[^\s)]+)\)/g,(_,label,url)=>`<a href="${url}" target="_blank" rel="noopener noreferrer">${label} ↗</a>`);
     const lines=markdown.split(/\r?\n/),consumed=new Set();
     return lines.map((line,i)=>{
       if(consumed.has(i)||/^<!-- report-body:(start|end) -->$/.test(line))return '';

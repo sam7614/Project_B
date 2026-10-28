@@ -1,0 +1,11 @@
+'use strict';
+// Traceability checks for deliberately synthetic documents; not empirical qualitative validation.
+const fs=require('node:fs'),crypto=require('node:crypto');
+const source='research/data/synthetic-expert-scenarios-v1.json',raw=fs.readFileSync(source,'utf8').replace(/\r\n/g,'\n'),d=JSON.parse(raw);
+if(d.synthetic!==true||d.actualParticipants!==0||d.profiles.length!==9)throw Error('Only the labelled nine-profile synthetic development corpus is accepted');
+if(new Set(d.profiles.map(p=>p.years)).size!==9||d.profiles.some(p=>!Number.isInteger(p.years)||p.years<10||!p.synthetic))throw Error('Fictional careers must be distinct integers >=10');
+const codes=new Set(d.codebook.map(c=>c.id)),questions=new Set(d.questions.map(q=>q.id)),ids=new Set();
+for(const p of d.profiles){if(p.answers.length!==8||new Set(p.answers.map(a=>a.questionId)).size!==8)throw Error('Eight responses per profile required');for(const a of p.answers){if(!a.synthetic||!a.text||!questions.has(a.questionId)||ids.has(a.segmentId)||!a.segmentId.startsWith(p.id+'-')||!a.codes.length||new Set(a.codes).size!==a.codes.length||a.codes.some(c=>!codes.has(c)))throw Error('Invalid or duplicate synthetic segment');ids.add(a.segmentId);}}
+const themes=d.codebook.map(c=>{const matches=d.profiles.flatMap(p=>p.answers.filter(a=>a.codes.includes(c.id)).map(a=>({profileId:p.id,segmentId:a.segmentId,questionId:a.questionId,synthetic:true,text:a.text})));return{...c,synthetic:true,documentCount:new Set(matches.map(m=>m.profileId)).size,segmentCount:matches.length,profileIds:[...new Set(matches.map(m=>m.profileId))],evidence:matches};});
+const result={version:'synthetic-expert-analysis-v1',synthetic:true,actualParticipants:0,fictionalProfileDocuments:9,segments:ids.size,source,sourceSha256:crypto.createHash('sha256').update(raw).digest('hex'),method:'Single AI-authored simulation and initial coding. Counts describe these documents only; not prevalence, consensus, saturation, independent inter-coder reliability, validated requirements or real expert results.',themes};
+fs.writeFileSync('research/data/synthetic-expert-analysis-v1.json',JSON.stringify(result,null,2)+'\n');console.log(JSON.stringify({fictionalDocuments:9,syntheticSegments:ids.size,actualParticipants:0,themes:themes.map(t=>({id:t.id,documents:t.documentCount,segments:t.segmentCount}))}));

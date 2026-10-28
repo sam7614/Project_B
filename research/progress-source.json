@@ -1,10 +1,10 @@
 {
-  "basedOnReportVersion": "v0.8",
+  "basedOnReportVersion": "v0.9",
   "reportStatus": "in_progress",
-  "reviewedAt": "2026-10-28T15:19:24+09:00",
+  "reviewedAt": "2026-10-28T17:40:04+09:00",
   "reportUrl": "https://docs.google.com/document/d/1ZjuZ8Q0NYilpkVLrZ7O6QH_tPksNyfGVHbljOeBgviI/edit",
   "dailyReportUrl": "https://docs.google.com/document/d/1fQxe3mrd1y8zqTBfkfNYT5fTjDLT4ZmIHZlxj2pWdLI/edit",
-  "reportNote": "31쪽의 누적 작업 원고입니다. 사전 자료·설문 전체 문구와 개발 검증을 보완했으며 실제 요구분석·전문가/사용자 평가 결과는 아직 없습니다.",
+  "reportNote": "36쪽의 누적 원고입니다. 합성 전문가9개 프로필/72모의응답의 개발용 분석을 추가했으며 실제FGI·전문가/사용자평가는 미실시, 실제참여자0명입니다.",
   "scope": "공유 상태는 연구 기록·증빙을 대조한 뒤 Git으로 발행합니다. 실제 조사와 합성 개발 검증, 초안 작성과 최종 완료를 구분합니다.",
   "actualParticipants": 0,
   "deliverables": [
@@ -59,7 +59,7 @@
     {
       "title": "최종 연구보고서 누적 집필",
       "status": "in_progress",
-      "note": "v0.8·31쪽. 초안 작성과 실제 결과보고서 완성/제출은 구분합니다.",
+      "note": "v0.9·36쪽. 합성 전문가 시나리오 분석을 추가했으며 실제 결과보고서 완성/제출은 별도입니다.",
       "evidence": [
         {
           "label": "근거 문서",
@@ -75,6 +75,18 @@
         {
           "label": "근거 문서",
           "url": "research/02-methods/needs-analysis-readiness.md"
+        }
+      ]
+    },
+    {
+      "title": "합성 전문가9개 관점·모의응답/코딩 연결",
+      "status": "complete",
+      "note": "가상 프로필9개·개별문서9개·72모의응답과8범주/요구후보를 작성했습니다. 실제 전문가 응답·FGI·검토 완료가 아닙니다.",
+      "completedOn": "2026-10-28",
+      "evidence": [
+        {
+          "label": "합성 모의분석·추적 근거",
+          "url": "research/03-results/synthetic-expert-needs-analysis.md"
         }
       ]
     }
@@ -237,6 +249,16 @@
         {
           "label": "근거 문서",
           "url": "research/versions/v0.8-report.md"
+        }
+      ]
+    },
+    "c2": {
+      "status": "planned",
+      "note": "합성9개문서는실제전문가자문이아닙니다. 실제자문·전문가선정/기관절차·수정확정은미실시입니다.",
+      "evidence": [
+        {
+          "label": "합성/실제 구분",
+          "url": "research/02-methods/synthetic-expert-protocol.md"
         }
       ]
     }

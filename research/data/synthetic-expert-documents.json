@@ -1,0 +1,80 @@
+{
+  "synthetic": true,
+  "actualParticipants": 0,
+  "folderUrl": "https://drive.google.com/drive/folders/1b6_dptESa2LZtKpyVAWAKlwMa8sZWUSf",
+  "createdOn": "2026-10-28",
+  "documents": [
+    {
+      "id": "SYN-E01",
+      "major": "교육공학",
+      "specialty": "요구분석·설계개발연구",
+      "years": 18,
+      "documentId": "1_Kjz9OHnUN8kcQBAju6WuiezxoowprSAHUQ8BeSMb0k",
+      "url": "https://docs.google.com/document/d/1_Kjz9OHnUN8kcQBAju6WuiezxoowprSAHUQ8BeSMb0k"
+    },
+    {
+      "id": "SYN-E02",
+      "major": "교육과정학",
+      "specialty": "학사제도·모듈형 교육과정 운영",
+      "years": 23,
+      "documentId": "1pCM5XvfH2ZcNLXzZYi1GxX0_x5neg9L14GClorUbcCI",
+      "url": "https://docs.google.com/document/d/1pCM5XvfH2ZcNLXzZYi1GxX0_x5neg9L14GClorUbcCI"
+    },
+    {
+      "id": "SYN-E03",
+      "major": "상담심리학",
+      "specialty": "진로상담·학생 성찰",
+      "years": 16,
+      "documentId": "1vLkUw1kQjZvoL3Bwj55zq2EOND7djHKJ538yXjywfTI",
+      "url": "https://docs.google.com/document/d/1vLkUw1kQjZvoL3Bwj55zq2EOND7djHKJ538yXjywfTI"
+    },
+    {
+      "id": "SYN-E04",
+      "major": "컴퓨터공학",
+      "specialty": "웹앱 아키텍처·데이터 연계",
+      "years": 20,
+      "documentId": "1wONIMBlj7LJYL2Q-jFlFkN5hxkr84bNKycIq8hPcvzs",
+      "url": "https://docs.google.com/document/d/1wONIMBlj7LJYL2Q-jFlFkN5hxkr84bNKycIq8hPcvzs"
+    },
+    {
+      "id": "SYN-E05",
+      "major": "교육측정평가",
+      "specialty": "학습분석·조사도구·통계",
+      "years": 14,
+      "documentId": "1tCZNaE_T9eCbhoe6w1h8VQO2Un3EmHNF_Dc0wbxM5lo",
+      "url": "https://docs.google.com/document/d/1tCZNaE_T9eCbhoe6w1h8VQO2Un3EmHNF_Dc0wbxM5lo"
+    },
+    {
+      "id": "SYN-E06",
+      "major": "인간컴퓨터상호작용",
+      "specialty": "사용자경험·접근성",
+      "years": 12,
+      "documentId": "1xyS3qYeUonV6WZkTdSwjJsxiirRxs8gpSBFcuNJ9xXA",
+      "url": "https://docs.google.com/document/d/1xyS3qYeUonV6WZkTdSwjJsxiirRxs8gpSBFcuNJ9xXA"
+    },
+    {
+      "id": "SYN-E07",
+      "major": "정보보호학",
+      "specialty": "역할별 접근·감사기록·자료 보호",
+      "years": 21,
+      "documentId": "1E7dyj34UKfz3mgpWnK9_xPhEIZ9NKCJptH5B2xF8AgI",
+      "url": "https://docs.google.com/document/d/1E7dyj34UKfz3mgpWnK9_xPhEIZ9NKCJptH5B2xF8AgI"
+    },
+    {
+      "id": "SYN-E08",
+      "major": "보건교육학",
+      "specialty": "보건계열 이수·실습 경로 상담",
+      "years": 27,
+      "documentId": "1NTIKJjWleVMFC5aW-wYWPdG-s7u_Z6_69unVq9hREFY",
+      "url": "https://docs.google.com/document/d/1NTIKJjWleVMFC5aW-wYWPdG-s7u_Z6_69unVq9hREFY"
+    },
+    {
+      "id": "SYN-E09",
+      "major": "ICT융합교육",
+      "specialty": "산학 연계·역량 기반 학업 경로",
+      "years": 11,
+      "documentId": "1gz4AWKvsr1jFPJTQ35kE5Y3tAGyDsc8MJts-D-5qTgs",
+      "url": "https://docs.google.com/document/d/1gz4AWKvsr1jFPJTQ35kE5Y3tAGyDsc8MJts-D-5qTgs"
+    }
+  ]
+}

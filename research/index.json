@@ -146,6 +146,12 @@
       "path": "research/02-methods/synthetic-data.md"
     },
     {
+      "id": "02-methods-synthetic-expert-protocol",
+      "group": "Ⅱ. 연구 방법과 수행",
+      "title": "합성 전문가 시나리오 작성·모의 분석 프로토콜",
+      "path": "research/02-methods/synthetic-expert-protocol.md"
+    },
+    {
       "id": "needs",
       "group": "Ⅲ. 연구 결과",
       "title": "요구분석 결과·우선순위",
@@ -222,6 +228,18 @@
       "group": "Ⅲ. 연구 결과",
       "title": "교수자용 프로토타입 원본 코드 확인과 개발 방향",
       "path": "research/03-results/prototype-source.md"
+    },
+    {
+      "id": "03-results-synthetic-expert-needs-analysis",
+      "group": "Ⅲ. 연구 결과",
+      "title": "합성 전문가 모의응답의 개발용 질적 요구분석",
+      "path": "research/03-results/synthetic-expert-needs-analysis.md"
+    },
+    {
+      "id": "03-results-synthetic-expert-response-corpus",
+      "group": "Ⅲ. 연구 결과",
+      "title": "SYN-E01 — 합성 모의응답, 실제FGI 아님",
+      "path": "research/03-results/synthetic-expert-response-corpus.md"
     },
     {
       "id": "03-results-synthetic-fixture-verification",

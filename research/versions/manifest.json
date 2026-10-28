@@ -1,7 +1,7 @@
 {
-  "currentVersion": "v0.8",
-  "baselineVersion": "v0.7",
-  "baselineGitCommit": "2ce6fba",
+  "currentVersion": "v0.9",
+  "baselineVersion": "v0.8",
+  "baselineGitCommit": "aa56ad3",
   "scope": "Named completed work versions; not per-keystroke tracking or automatic synchronization of all manual edits.",
   "snapshots": [
     {
@@ -71,6 +71,24 @@
       "capturedAt": "2026-10-27T20:44:00.918967+09:00",
       "documentId": "1ZjuZ8Q0NYilpkVLrZ7O6QH_tPksNyfGVHbljOeBgviI",
       "note": "Prerequisite native table included in text; full faculty/student instrument wording, own unvalidated proposal, actual respondents0; nine domestic/six international scholarly references.",
+      "figures": [
+        {
+          "path": "research/figures/lf-development-fixture.svg",
+          "sha256": "eb448b06e5b6b0fd23898333fcff97ec8a1d496859c106f69d3d6093a75ab638"
+        },
+        {
+          "path": "research/figures/lf-development-fixture.png",
+          "sha256": "4064f7b224b8715d807635d983d2984bf95005fb1a2d456966c36a79f69d3ddc"
+        }
+      ]
+    },
+    {
+      "version": "v0.9",
+      "path": "research/versions/v0.9-report.md",
+      "sha256": "e3d42db828f2c8f8bdb1f22b9bb14c5081276088a31fbe5e3c14f79f959450ee",
+      "capturedAt": "2026-10-28T17:40:04.487622+09:00",
+      "documentId": "1ZjuZ8Q0NYilpkVLrZ7O6QH_tPksNyfGVHbljOeBgviI",
+      "note": "Nine fictional expert profiles and72 AI-authored independent responses; simulated coding/requirements only, not actual FGI, actual participants0. Native tables included.",
       "figures": [
         {
           "path": "research/figures/lf-development-fixture.svg",
