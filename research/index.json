@@ -254,6 +254,12 @@
       "path": "research/03-results/synthetic-scenario-readiness.md"
     },
     {
+      "id": "03-results-t07-fixture-verification",
+      "group": "Ⅲ. 연구 결과",
+      "title": "T07 오류 갱신·복구의 격리 기술 검증",
+      "path": "research/03-results/t07-fixture-verification.md"
+    },
+    {
       "id": "03-results-tu-curriculum-matching",
       "group": "Ⅲ. 연구 결과",
       "title": "동명대학교 모듈 교육과정과 합성 학생 원자료 매칭",
@@ -342,6 +348,12 @@
       "group": "Ⅴ. 제출용 요약",
       "title": "2026-10-28 연구 수행 기록",
       "path": "research/05-summaries/daily-2026-10-28.md"
+    },
+    {
+      "id": "05-summaries-daily-2026-10-29",
+      "group": "Ⅴ. 제출용 요약",
+      "title": "2026-10-29 연구 수행 기록",
+      "path": "research/05-summaries/daily-2026-10-29.md"
     },
     {
       "id": "appendix",

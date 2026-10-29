@@ -1,7 +1,7 @@
 {
-  "currentVersion": "v0.10",
-  "baselineVersion": "v0.9",
-  "baselineGitCommit": "e456e78",
+  "currentVersion": "v0.11",
+  "baselineVersion": "v0.10",
+  "baselineGitCommit": "a86eae6",
   "scope": "Named completed work versions; not per-keystroke tracking or automatic synchronization of all manual edits.",
   "snapshots": [
     {
@@ -107,6 +107,24 @@
       "capturedAt": "2026-10-28T19:39:53.930+09:00",
       "documentId": "1ZjuZ8Q0NYilpkVLrZ7O6QH_tPksNyfGVHbljOeBgviI",
       "note": "Prepared sixteen scenarios; eight document-validator checks passed. Product cases not executed, actual participants0.",
+      "figures": [
+        {
+          "path": "research/figures/lf-development-fixture.svg",
+          "sha256": "eb448b06e5b6b0fd23898333fcff97ec8a1d496859c106f69d3d6093a75ab638"
+        },
+        {
+          "path": "research/figures/lf-development-fixture.png",
+          "sha256": "4064f7b224b8715d807635d983d2984bf95005fb1a2d456966c36a79f69d3ddc"
+        }
+      ]
+    },
+    {
+      "version": "v0.11",
+      "path": "research/versions/v0.11-report.md",
+      "sha256": "0e67959cc93e661e3ce8d6381a68912f23b1548a65471847a88a30de4a33a7f3",
+      "capturedAt": "2026-10-29T21:53:42+09:00",
+      "documentId": "1ZjuZ8Q0NYilpkVLrZ7O6QH_tPksNyfGVHbljOeBgviI",
+      "note": "Isolated actual-handler/generated-CSV and response-replay browser verification of SC-05-P/N; not live Sheet/API E2E or participant evaluation, actual0.",
       "figures": [
         {
           "path": "research/figures/lf-development-fixture.svg",

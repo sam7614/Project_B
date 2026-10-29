@@ -100,3 +100,7 @@
 ## E-SC-001. 합성 과업 실행 계획의 추적 검증
 
 2026-10-28 저녁. [실행 준비 점검](synthetic-scenario-readiness.md), synthetic-advising-test-plan-v1.json, validate-synthetic-test-plan.cjs와 test-synthetic-test-plan.cjs. 16개 계획/8요구후보/구절·범주·과업 대응과 8개 문서 검사를 확인했다. 제품 시나리오 실행0건·참여자0명이며 사용자/전문가 평가나 기능 통과가 아니다. 제품 f23d853의 상담 일지 버튼에 저장 처리가 없어 기존 보류를 유지했다.
+
+## E-T07-001. 생성 CSV 핸들러·프런트엔드 응답 재생
+
+2026-10-29. [T07 격리 검증](t07-fixture-verification.md), t07-fixture-verification-20261029.json과 run-t07-api-fixture.mjs/check-t07-browser.cjs. 핸들러200/502·POST405, PC1440/모바일390의 갱신 오류→마지막 정상 유지→변경/복구를 확인했다. 생성학생1명·실제0명·시트변경0건. 운영 API/시트의 연속 E2E·전체 부하·사용자 평가로 확대하지 않는다. 오류 요소의 모달 내 인지성은 후속 과제다.

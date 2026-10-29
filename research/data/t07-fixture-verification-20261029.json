@@ -1,0 +1,121 @@
+{
+  "date": "2026-10-29",
+  "synthetic": true,
+  "actualParticipants": 0,
+  "localProductCommit": "f23d853",
+  "frontendUrl": "https://micro-degree-student.vercel.app/",
+  "frontendImmutableDeploymentCommit": "not_verified",
+  "transport": "local actual handler with generated CSV, then replayed responses in intercepted browser; not live Sheet/API",
+  "fixtureStudents": 1,
+  "isolatedPlanCases": [
+    "SC-05-P",
+    "SC-05-N"
+  ],
+  "liveSheetEdits": 0,
+  "api": [
+    {
+      "stage": "initial",
+      "status": 200,
+      "progress": 100,
+      "gpa": 3,
+      "revision": "8800c0aa30d764649c0eac19e4810382845cf5575ba2ee6ae1c969a9300acf76",
+      "errorReturned": false
+    },
+    {
+      "stage": "invalid",
+      "status": 502,
+      "errorReturned": true
+    },
+    {
+      "stage": "unavailable",
+      "status": 502,
+      "errorReturned": true
+    },
+    {
+      "stage": "changed",
+      "status": 200,
+      "progress": 87,
+      "gpa": 2.6,
+      "revision": "67d58ffa2a20a3510b5843657184547a9b850aa906c1b92a99b694b410d88731",
+      "errorReturned": false
+    },
+    {
+      "stage": "restored",
+      "status": 200,
+      "progress": 100,
+      "gpa": 3,
+      "revision": "8800c0aa30d764649c0eac19e4810382845cf5575ba2ee6ae1c969a9300acf76",
+      "errorReturned": false
+    }
+  ],
+  "methodGuard": 405,
+  "upstreamReads": 10,
+  "browser": [
+    {
+      "width": 1440,
+      "stage": "invalid",
+      "retainedProgress": 100,
+      "retainedGradePoint": 3,
+      "errorElementPresent": true,
+      "modalErrorPerceptibility": "not_verified"
+    },
+    {
+      "width": 1440,
+      "stage": "unavailable",
+      "retainedProgress": 100,
+      "retainedGradePoint": 3,
+      "errorElementPresent": true,
+      "modalErrorPerceptibility": "not_verified"
+    },
+    {
+      "width": 1440,
+      "stage": "changed",
+      "errorCleared": true,
+      "openModalUpdated": true
+    },
+    {
+      "width": 1440,
+      "stage": "restored",
+      "progress": 100,
+      "openModalUpdated": true,
+      "noOverflow": true,
+      "pageErrors": 0,
+      "fixtureApiRequests": 5
+    },
+    {
+      "width": 390,
+      "stage": "invalid",
+      "retainedProgress": 100,
+      "retainedGradePoint": 3,
+      "errorElementPresent": true,
+      "modalErrorPerceptibility": "not_verified"
+    },
+    {
+      "width": 390,
+      "stage": "unavailable",
+      "retainedProgress": 100,
+      "retainedGradePoint": 3,
+      "errorElementPresent": true,
+      "modalErrorPerceptibility": "not_verified"
+    },
+    {
+      "width": 390,
+      "stage": "changed",
+      "errorCleared": true,
+      "openModalUpdated": true
+    },
+    {
+      "width": 390,
+      "stage": "restored",
+      "progress": 100,
+      "openModalUpdated": true,
+      "noOverflow": true,
+      "pageErrors": 0,
+      "fixtureApiRequests": 5
+    }
+  ],
+  "scriptHashes": {
+    "scripts/run-t07-api-fixture.mjs": "8ed9e373221cde635321a56199d6c899f0ad98771d8faaecb46699606d93673e",
+    "scripts/check-t07-browser.cjs": "1c74b562ad77d896a900e113b0de71f6911524c03fb26c65ac143fc613911373"
+  }
+}
