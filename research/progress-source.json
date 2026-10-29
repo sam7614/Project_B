@@ -1,7 +1,7 @@
 {
   "basedOnReportVersion": "v0.11",
   "reportStatus": "in_progress",
-  "reviewedAt": "2026-10-29T21:53:42+09:00",
+  "reviewedAt": "2026-10-29T21:58:05+09:00",
   "reportUrl": "https://docs.google.com/document/d/1ZjuZ8Q0NYilpkVLrZ7O6QH_tPksNyfGVHbljOeBgviI/edit",
   "dailyReportUrl": "https://docs.google.com/document/d/1fQxe3mrd1y8zqTBfkfNYT5fTjDLT4ZmIHZlxj2pWdLI/edit",
   "reportNote": "v0.11·37쪽. T07 정상/예외2개 계획을 생성CSV 핸들러 실행·응답 재생으로 격리 검증했습니다. 실제 운영 API/시트 E2E·실증/참여자 평가는 아니며 실제 참여자0명입니다.",
